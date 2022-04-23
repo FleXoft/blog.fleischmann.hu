@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<!-- 
+#                                       __ _      _          _                                   _
+#                                      / _| |    (_)        | |                                 | |
+#   __ _ _   _  ___  _ __ __ _ _   _  | |_| | ___ _ ___  ___| |__  _ __ ___   __ _ _ __  _ __   | |__  _   _
+#  / _` | | | |/ _ \| '__/ _` | | | | |  _| |/ _ \ / __|/ __| '_ \| '_ ` _ \ / _` | '_ \| '_ \  | '_ \| | | |
+# | (_| | |_| | (_) | | | (_| | |_| |_| | | |  __/ \__ \ (__| | | | | | | | | (_| | | | | | | |_| | | | |_| |
+#  \__, |\__, |\___/|_|  \__, |\__, (_)_| |_|\___|_|___/\___|_| |_|_| |_| |_|\__,_|_| |_|_| |_(_)_| |_|\__,_|
+#   __/ | __/ |           __/ | __/ |
+#  |___/ |___/           |___/ |___/
+# -----------------------------------------------------------------------------------------------------------
+
+# Jekyll based web page POC v2 on GitHub
+# 
+# 
+# Rls: 2022.05.01.  
+#
+-->
+
+<html lang="hu-HU">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="keywords" content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, sinclair, zx spectrum, psion, timex, perl, lcd, minolta, 9000, d7d, tsm, tivoli, ibm, tsm, tivoli storage manager, spectrum protect, gpfs, spectrum scale, osx, apple, ble" />
+
+  <meta name="owner"  content="FLEISCHMANN György" />
+  <meta name="author" content="FLEISCHMANN György" />
+
+  <meta name="description" content="A personal page for Fleischmann György."/>
+
+  <style type="text/css">
+    
+    html {
+
+    }
+
+    body {
+      margin: auto;
+      margin-top:    .5%;
+      margin-bottom: .5%;
+      max-width: 1666px;
+      
+      font-family: sans-serif;
+      font-family: Avenir, "Helvetica Neue", Helvetica, Roboto, Corbel, sans-serif;
+      #font-family: courier;
+      #font-family: 'Courier New', monospace;
+      font-size: 160%;
+      font-weight: 400;
+      #line-height: 0;
+      #font-size: 1.8rem;
+      #-ms-text-size-adjust: 100%;
+      #-webkit-text-size-adjust: 100%;
+    }
+
+  .shadow {
+    -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+  }
+
+  div {
+    /* Debug */
+    border: 0px solid;    
+  }
+  div.rightbox {
+    margin-left:   25px;
+    margin-bottom: 0;
+    margin-top:    0;
+    padding:       0;
+    float:         right;
+  }
+
+  p {
+    margin-bottom: 0;
+    text-align:    justify;
+  }
+
+  h1 {
+    font-size:     230%; 
+    margin-top:    0;
+    margin-bottom: 0;
+    font-weight:   600;
+  }
+
+  img {
+    width: 100%;
+    border: 0;
+    margin: 0;
+  }
+
+  .leftside {
+    width: 20%; 
+    float: left;
+  }
+
+  .rightside {
+    width: 80%; 
+    float: left;
+  }
+
+  .menupadding {
+    padding: 10px;
+  }
+
+  .contentcontainer { 
+    display: flex;
+  }
+
+  .contentleftside {
+    width: 20%;
+    text-align: right;  
+  }
+
+  .contentrightside {
+    width: 80%;  
+  }
+
+  .contentpadding {
+    padding: 40px;
+  }
+
+  @media only screen and ( max-width: 960px ) {
+    body {
+      font-size: 1.7rem;
+    }
+    .contentcontainer { 
+      display: table;
+    }
+
+    .contentleftside {
+      width: 100%;
+      text-align: left;  
+    }
+
+    .contentrightside {
+      width: 100%;  
+    }
+
+    .contentpadding {
+      padding: 10px;
+    }
+
+  }
+
+  .rainbow{
+    width: 100%;
+    height: 8px;
+    background-repeat:repeat-x;
+    background: linear-gradient(to right, #eb5252, #f78f2f, #f4c151, #75d850, #6284FF, #eb5252);
+    animation: rainbow 10s linear infinite;
+    background-size: 200% 100% !important;
+  }
+  @keyframes rainbow{
+    0% {background-position: 0;}
+    100% {background-position: 800% 0;}
+  }
+
+  </style>
+
+</head>
+
+<body class="shadow">
+
+<!-- Header -->
+<header style="background-repeat: no-repeat; background-size: cover;
+  background-image:url(https://i0.wp.com/citygreen.hu/wp-content/uploads/2016/07/Narcissus-Flower-Record.jpg);">
+
+  <!-- Menubar -->
+  <div style="width: 100%; display: flex;">
+    <div class="leftside" style="
+      background: rgba( 255, 0, 0, 0.80 ); color: white; text-align: center;">
+      <div class="menupadding">fleischmann.hu</div>
+    </div>
+    <div class="rightside" style="
+      background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
+      <div class="menupadding">·</div>
+    </div> 
+  </div>
+  
+  <!-- Main header -->
+  <div style="width: 100%; display: flex; 
+    height: 600px;">
+    <div class="leftside" style="
+      background: rgba( 0, 0, 0, 0.5 ); color: white; text-align: right;">
+      <div class="menupadding">
+
+<h1>Left</h1>
+
+      </div>  
+    </div>
+    <div class="rightside" style="position: relative;">
+      <div class="menupadding">
+
+<h1>Right</h1>
+
+      </div>
+
+      <!-- Bottom part -->
+      <div style="position: absolute; bottom: 0px; right: 0px; width: 100%; opacity: 0.45;">
+
+        <!-- Pic source -->  
+        <div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div>
+
+        <!-- Soundcloud BIG -->
+        <iframe style="margin-bottom: -10px; margin-top: 0px; background: white;" width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/24302933&&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+      
+      </div>
+      <!-- End of bottom part  -->
+
+    </div>
+  </div>
+  <!-- End of Main Hheader -->
+
+</header>
+
+<!-- Main content -->
+<content class="contentcontainer" style="width: 100%;">
+    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
+      <div class="contentpadding">
+      
+<div class="post-date"><i class="icon-calendar"></i> 2022., április 23.</div>
+
+      </div> 
+    </div>
+    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 );">
+      <div class="contentpadding">
+
+<div><h1>Nárcisz</h1>
+
+<div class="rainbow"></div>
+
+<p>De hogyan is válik valaki nárcisztikussá?
+Az ember nem úgy születik, hogy tud szeretni. Vagyis jól szeretni. Azt meg kell tanulnia – általában az édesanyjától. Ugyanígy tanulandó dolog a bizalom, az egészséges önértékelés és a társas kapcsolatok kialakításának képessége. Ez a tanulási folyamat általában a korai anya-gyermek kapcsolatban meg is valósul. Jó esetben.</p>
+
+<p>Ehhez arra van szükség, hogy az anya kiegyensúlyozott legyen, és meg tudja adni a megfelelő szeretetet gyermekének.
+Ám azokban a családokban, ahol a szülők érzelmileg nem kiegyensúlyozottak, a kisgyermek énképe súlyosan megsérülhet. Ennek következtében önértékelése nem fejlődik megfelelően.</p>
+
+<p>Úgy élni, hogy értéktelennek tartom önmagamat, nem kellemes dolog. Így hát a sérült személy védekezésként mélyen eltemeti magába valódi énjét, és ezt egy hamis, grandiózus önképpel kompenzálja. Leaglábbis, ha nárcisztikus hajlama van az illetőnek.
+Mert ha már önmagam nem akarok lenni, akkor miért ne válasszak egy lenyűgözően fantasztikus álszemélyiséget az igazi helyett?</p>
+
+<p>Valami ilyesmi játszódik le a nárcisztikus személyiségzavarban szenvedő emberekben, persze nem tudatosan.</p>
+
+<p>9 jel, hogy párod nárcisztikus:
+A saját fontosságáról nagyzoló érzése van, teljesítményét eltúlozza, és elvárja, hogy ezért csodálják.
+Gyakran fantáziál sikerről és hatalomról.
+Különlegesnek és egyedinek tartja önmagát.
+Túlzott mértékű csodálatot vár el másoktól.
+Feljogosítva érzi magát, hogy különös bánásmódot igényeljen.
+Társas kapcsolataiban önző, kihasznál másokat.
+Empátia hiánya: képtelen mások érzéseit felismerni és átérezni.
+Sokszor érez irigységet, vagy azt gondolja, hogy mások irigylik őt.
+Gőgös, fennhéjázó magatartást tanusít.</p>
+
+<p>Hogyan bánj egy nárcisztikussal?
+Csak azért, mert valaki nárcisztikus, nem jelenti azt, hogy egyáltalán nem lehet őt szeretni. A nárcisztikusok gyakran viccesek, karizmatikusak és sikeresek. Mielőtt megszabadulsz tőle, érdemes megfontolni pár szempontot vele kapcsolatban.</p>
+
+<ol>
+  <li>Döntsd el, hogy neked mire van szükséged!</li>
+</ol>
+
+<p>Ha olyan emberre van szükséged, aki a nap minden percében kifejezi szeretetét, és állandó lelki támogatást nyújt, akkor nyilvánvaló, hogy neked nem egy nárcisztikus ember lesz a megfelelő társad.
+Viszont ha ellensúlyozni tudja nárcisztikus tulajdonságait, például a humorával vagy az energikusságával, és neked sincs szükséged extra támogatásra, a kapcsolatotok működhet is egy ideig.
+Fontos, hogy csak akkor maradj egy nárcisztikus mellett, ha ezzel nem ártasz saját magadnak. Ha rosszul bánik veled (például manipulál, lenéz, úgy kezel, mint egy darab rongyot), azonnal menekülj!</p>
+
+<ol>
+  <li>Fogadd el a korlátait!</li>
+</ol>
+
+<p>Ha a párod igazán fontos neked, és úgy döntesz, hogy mellette maradsz, akkor el kell fogadnod őt a nárcizmusával együtt. Ne várj el tőle olyan dolgokat, amikről tudod, hogy úgysem képes megadni neked. Követelőzéssel nem fogsz elérni semmit, sőt még frusztráltabb és dühösebb leszel.
+Hiába nyaggatnád állandóan a vele kapcsolatos sérelmeiddel, nem lesz képes arra, hogy megértse ezeket.
+Sőt még élvezi is, hogy róla beszéltek – már megint. Mert abban biztos lehetsz, hogy el fogja érni, hogy kizárólag róla szóljon a beszélgetés!</p>
+
+<ol>
+  <li>Tanúsíts együttérzést!</li>
+</ol>
+
+<p>Most nyilván azt gondolod, hogy “Könnyű azt mondani!” De ne felejtsd el, hogy akármennyire is magabiztosnak tűnik nárcisztikus párod, mélyen legbelül csak egy törékeny kisgyerek, akinek állandó elismerésre van szüksége.</p>
+
+<p>Ez persze nem azt jelenti, hogy engedj meg neki mindent!
+Csak jusson eszedbe, hogy a nárcisztikus is emberi lény, aki gyermekkori sérülései folytán nem képes igazán kapcsolódni másokhoz.</p>
+
+<p>https://she.life.hu/nofilter/20161019-narcisztikus-segitseg-pszichologia-tanacsok-narcizmus.html</p>
+
+<hr />
+
+<p>A nárcisztikus nő 9 ismertetőjele
+Simán lehet, hogy a te környezetedben is akad néhány keményvonalas önimádó. Innen ismered fel őket.</p>
+
+<ol>
+  <li>
+    <p>Nem bírja ki, hogy ne rá figyeljen mindenki
+Ha épp nincs semmi pozitív, amivel felhívhatná magára a figyelmet, akkor vitákat és ellentmondásos szitukat generál maga körül - hogy azért mégiscsak ő legyen az első számú beszédtéma. És ha kell, még célpontot is választ magának, akit kedvére szapulhat. Mindeközben újra átélheti a hatalom mámorító érzését, amit aztán mások felé is demonstrálhat. Az a legjobb fegyver ellene, ha egyszerűen nem reagálsz a támadásaira: a közönybe ugyanis belepusztul…</p>
+  </li>
+  <li>
+    <p>Arra használja a szexualitását, hogy másokat manipuláljon
+Nem feltétlenül szakmai és anyagi érvényesülés érdekében használja a bájait, hiszen ahhoz túlzottan is büszke - nem szorul ő protekcióra, kikaparja magának a gesztenyét. Viszont ha teheti, örömmel rendel maga alá érzelmileg másokat, hogy kielégítsék a szükségleteit és kiszolgálják a szeszélyeit. Időnként olyan finoman és elegánsan manipulál, hogy észre sem veszed.</p>
+  </li>
+  <li>
+    <p>Saját részeként tekint másokra - különösen a gyerekeire
+A nárcisztikus anya egy igazi rémálom: csak akkor szeret, ha úgy viselkedsz, ahogy neki tetszik, és elfogadni is csak akkor fog, ha valóra váltod az álmait. A legtöbbször viszont inkább elhanyagol és cserbenhagy. Egy ilyen szülő olykor még versengeni is képes a gyermekével, testvérével, anyjával vagy a párjával…</p>
+  </li>
+  <li>
+    <p>A szép gesztusok embere, de eldob, ha nincs szüksége rád
+Mindegy, hogy barát, szerető vagy kolléga vagy-e, a nárcisztikus nő először az egekbe emel, hogy kötődni kezdj hozzá - és az érzéshez, hogy különleges emberként tündökölhetsz mellette. De azonnal elengedi a kezed, ha nincs már rád szüksége. Aztán megaláz, kisemmiz és magadra hagy - ne csodálkozz, inkább kezdj el azon dolgozni, hogy mielőbb meggyógyuljon a lelked!</p>
+  </li>
+  <li>
+    <p>Gyakran láthatod szerelmi háromszögek középpontjában is
+Simán előfordulhat, hogy egyszerre több partnere is van: elvégre több ember is akadhat, aki épp a hasznára válik. Lelkifurdalás nélkül gázol át másokon, rombol szét házasságokat, családokat - és sokszor csak azért nem szakít, mert a talonban tartott partnere “még jól jöhet valamire”.</p>
+  </li>
+  <li>
+    <p>Hiányzik belőle az empátia
+Mindannyiunkkal előfordul, hogy megbántunk másokat, de a nárcisztikus - velünk ellentétben - sosem érez valódi bűntudatot emiatt. Legfeljebb azon bosszankodik, hogy árnyék vetődött rá, ezért grandiózus gesztusokkal igyekszik jóvátenni a hibáját. Emögött azonban soha nincs tényleges együttérzés, ne is várd tőle…</p>
+  </li>
+  <li>
+    <p>Gyakran irigy, ilyenkor kicsinálja a konkurenciát
+Ha mindketten sajtkészítők vagytok, akkor ő lesz az, aki előbb-utóbb belepisil a sajtodba, hogy az övé lehessen a jobb. De legalábbis elterjeszti, hogy tőle csórtad a receptet. És mivel teljesen meg van győződve a maga különleges és egyedülálló mivoltáról, ezért képes el is hinni, hogy ez valóban így történt.</p>
+  </li>
+  <li>
+    <p>Képtelen elviselni a negatív kritikát
+Bár a felszínen intelligensnek és korrektnek tűnhet, a valóságban azonban nem viseli jól a kritikát. Többnyire addig piszkálja a kritikusát, míg hiteltelenné nem teszi a személyét - így próbálja egyértelműsíteni, hogy aki nem kerül maradéktalanul a hatása alá, az valójában téved.</p>
+  </li>
+  <li>
+    <p>Nem tudja, hogy hol a határ - de nem is érdekli
+Időnként egyáltalán nem érzékeli a határokat - bármiről is van szó -, hiszen egy olyan világban él, amelyben ő mindennek az alfája és ómegája. Bármit képes megtenni a saját érdekében:</p>
+  </li>
+</ol>
+
+<p>Simán lefekszik a legjobb barátnője pasijával.
+Az apja ellen fordítja az anyját.
+Kifecsegi egy jó barát legféltettebb titkát.
+És sokszor észre sem veszi, hogy milyen gáz ez az egész. Sőt, általában úgy érzi, joga van kedve szerint keverni a kártyákat.</p>
+
+<p>A szakemberek azt mondják, aki nárcisztikus személyiségzavarral él, az aligha változik. Hiszen az önismeret, önfejlesztés útja legtöbbször fájdalmas felismerésekkel van kikövezve. Ezért az a legjobb, ha tartod a távolságot…</p>
+
+<p>https://she.life.hu/nofilter/20180226-a-narcisztikus-no-9-ismertetojele-barok-eszter.html</p>
+
+
+<!-- Disqus part -->
+
+<div id="disqus_thread" style="margin-top: 2%; padding:1em;border:solid 1px #F5F5F5; clear: both;"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://blog-fleischmann-hu.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+      </div>
+    </div>
+</content>
+
+<!-- Footer -->
+<footer style="width: 100%;">
+  <div class="contentpadding" style="background: rgba( 155,  155, 155, 1 ); color: white; text-align: center;">
+    <a href="#top" title="Back to Top">© 2022 -> ∞ Fleischmann György. No rights reserved.</a>
+  </div>
+</footer>
+
+</body>
+</html>
