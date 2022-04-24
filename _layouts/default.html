@@ -165,7 +165,7 @@
 <body class="shadow">
 
 <!-- Header -->
-<header style="background-repeat: no-repeat; background-size: cover;
+<header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
   background-image:url({{ page.headerBGimage }});">
 
   <!-- Menubar -->
@@ -226,7 +226,8 @@
       </div> 
     </div>
     <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 );">
-      <div class="contentpadding">
+
+      <div {% if page.disableContentPadding != 'yes' %}class="contentpadding"{% endif %}>
 
 <div>{{ content }}</div>
 
@@ -236,7 +237,7 @@
 
 <!-- Footer -->
 <footer style="width: 100%;">
-  <div class="contentpadding" style="background: rgba( 155,  155, 155, 1 ); color: white; text-align: center;">
+  <div class="contentpadding" style=" padding: 15px; background: rgba( 155,  155, 155, 1 ); color: white; text-align: center;">
     <a href="#top" title="Back to Top">© 2022 -> ∞ Fleischmann György. No rights reserved.</a>
   </div>
 </footer>
