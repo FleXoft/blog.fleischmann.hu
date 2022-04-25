@@ -79,7 +79,7 @@
   }
 
   h1 {
-    font-size:     230%; 
+    font-size:     220%; 
     margin-top:    0;
     margin-bottom: 0;
     font-weight:   600;
@@ -118,15 +118,11 @@
     width: 80%;  
   }
 
-  .contentpaddingleft {
-    padding: 60px;
-  }
-  .contentpaddingright {
+  .contentpadding {
     padding: 40px;
   }
 
-  @media only screen and ( max-width: 800px ) {
-
+  @media only screen and ( max-width: 960px ) {
     body {
       font-size: 1.7rem;
     }
@@ -143,47 +139,10 @@
       width: 100%;  
     }
 
-    .contentpaddingleft {
-      padding: 30px;
-    }
-
-  }
-
-  @media only screen and ( max-device-width: 500px )  {
-
-    body {
-      font-size: 1.7rem;
-    }
-    .contentcontainer { 
-      display: table;
-    }
-
-    .contentleftside {
-      width: 100%;
-      text-align: left;  
-    }
-
-    .contentrightside {
-      width: 100%;  
-    }
-
-    .contentpaddingleft {
+    .contentpadding {
       padding: 10px;
     }
 
-  }
-
-  .rainbow{
-    width: 100%;
-    height: 8px;
-    background-repeat:repeat-x;
-    background: linear-gradient(to right, #eb5252, #f78f2f, #f4c151, #75d850, #6284FF, #eb5252);
-    animation: rainbow 10s linear infinite;
-    background-size: 200% 100% !important;
-  }
-  @keyframes rainbow{
-    0% {background-position: 0;}
-    100% {background-position: 800% 0;}
   }
 
   </style>
@@ -193,38 +152,35 @@
 <body class="shadow">
 
 <!-- Header -->
-<header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
-  background-image:url({{ page.headerBGimage }});">
+<header style="background-repeat: no-repeat; background-size: cover;
+  background-image:url(https://78.media.tumblr.com/6332acbb7a0e2687d403099c7c7202b6/tumblr_oq9g02HudJ1r6j7rho1_1280.png);">
 
   <!-- Menubar -->
   <div style="width: 100%; display: flex;">
     <div class="leftside" style="
-      background: rgba( 255, 0, 0, 0.80 ); color: white; text-align: center;">
+      background: rgba( 255, 0, 0, 0.90 ); color: white; text-align: center;">
       <div class="menupadding">fleischmann.hu</div>
     </div>
     <div class="rightside" style="
       background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
-      <div class="menupadding">·</div>
+      <div class="menupadding">· menu1 · menu2 · menu3 · menu4 · menu5</div>
     </div> 
   </div>
   
   <!-- Main header -->
   <div style="width: 100%; display: flex; 
-    height: {{ page.headerSIZE }};">
+    height: 400px;">
     <div class="leftside" style="
       background: rgba( 0, 0, 0, 0.5 ); color: white; text-align: right;">
       <div class="menupadding">
 
-{{ page.headerLEFTtext }}
+<h1>About</h1>
 
-      </div>  
+<p>as as a sa s a sa sa s as a s a sas s</p></div>  
+
     </div>
     <div class="rightside" style="position: relative;">
-      <div class="menupadding">
-
-{{ page.headerRIGHTtext }}
-
-      </div>
+      <div class="menupadding">a<br>a<br>a</div>
 
       <!-- Bottom part -->
       <div style="position: absolute; bottom: 0px; right: 0px; width: 100%; opacity: 0.45;">
@@ -232,8 +188,11 @@
         <!-- Pic source -->  
         <div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div>
 
+        <!-- Soundcloud SMALL -->        
+        <iframe style="margin-bottom: -10px; margin-top: 0px; background: white;" width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/24302933&&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
         <!-- Soundcloud BIG -->
-        {{ page.headerMUZAX }}
+        <iframe style="margin-bottom: -10px;" width="100%" height="125" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/24302933&&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
       
       </div>
       <!-- End of bottom part  -->
@@ -244,22 +203,59 @@
 
 </header>
 
-<!-- Main content -->
+<!-- Main content 1. -->
 <content class="contentcontainer" style="width: 100%;">
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
-      <div class="contentpaddingleft">
-      
-<div class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
-
-      </div> 
+      <div class="contentpadding">➡ 2022. szeptember 31., vasárnap</div> 
     </div>
     <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 );">
+      <div class="contentpadding">
 
-{{ page.beforeContent }}
+<h1>About</h1>
 
-      <div {% if page.disableContentPadding != 'yes' %}class="contentpaddingright"{% endif %}>
+<div class="rightbox" style="width: 40%; margin-top: 33px;"><img class="shadow" src="https://78.media.tumblr.com/6332acbb7a0e2687d403099c7c7202b6/tumblr_oq9g02HudJ1r6j7rho1_1280.png">
+<div style="font-size: 40%; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div></div>
 
-{{ content }}
+<p>Életünk alapja a remény, a vágy, hogy a dolgok jól alakuljanak. A remény a jövővel foglalkozik. Bár a jövővel kapcsolatban semmi sem garantálható, mi mégis reménykedünk, ami sokkal jobb, mint pesszimistának lenni.</p>
+<p>Manapság, amikor az éghajlati válság következtében súlyos problémákkal nézünk szembe, segítenünk kell egymást a változás menetrendjének meghatározásával. Emberi lényekként, akik ezen az egy bolygón élünk, erőfeszítéseket kell tennünk, hogy boldogan éljünk együtt. Az éghajlatváltozás veszélye nem korlátozódik országhatárokon - mindannyiunkat érint. A természet és a bolygó védelmén kell dolgoznunk, amely az egyetlen otthonunk.</p>
+
+      </div>
+    </div>
+</content>
+
+<!-- Main content 2. -->
+<content class="contentcontainer" style="width: 100%;">
+    <div class="contentleftside" style="float: left; background: rgba( 128, 128, 128, .5 ); color: white;">
+      <div class="contentpadding">2022. szeptember 31., vasárnap</div> 
+    </div>
+    <div class="contentrightside" style="float: left; background: rgba( 245, 245, 245, 1 );">
+      <div class="contentpadding">
+
+<div>
+<img class="shadow" src="https://78.media.tumblr.com/6332acbb7a0e2687d403099c7c7202b6/tumblr_oq9g02HudJ1r6j7rho1_1280.png">
+<div class="shadow" style="float: right; font-size: 50%; background: black; color: white; padding: 5px; margin-top: 10px;">Source: www.fleischmann.hu</div>
+</div>
+
+<p>tttta<br>a<br>a<br></p>
+
+      </div>
+    </div>
+</content>
+
+<!-- Main content 3. -->
+<content class="contentcontainer" style="width: 100%;">
+    <div class="contentleftside" style="float: left; background: rgba( 148, 148, 148, .5 ); color: white;">
+      <div class="contentpadding">2022. szeptember 31., vasárnap</div> 
+    </div>
+    <div class="contentrightside" style="float: left; background: rgba( 245, 245, 245, 1 );">
+      <div class="contentpadding" >
+
+<div style="margin-top: -40px; margin-left: -40px; margin-right: -40px;">
+<img src="https://78.media.tumblr.com/6332acbb7a0e2687d403099c7c7202b6/tumblr_oq9g02HudJ1r6j7rho1_1280.png">
+<div class="shadow" style="float: right; font-size: 50%; background: black; color: white; padding: 5px; margin-top: 10px;">Source: www.fleischmann.hu</div>
+</div>
+
+<p>tttt<br>a<br>a<br>a<br></p>
 
       </div>
     </div>
@@ -267,7 +263,7 @@
 
 <!-- Footer -->
 <footer style="width: 100%;">
-  <div style=" padding: 15px; background: rgba( 240,  240, 240, 1 ); color: white; text-align: center;">
+  <div class="contentpadding" style="background: rgba( 155,  155, 155, 1 ); color: white; text-align: center;">
     <a href="#top" title="Back to Top">© 2022 -> ∞ Fleischmann György. No rights reserved.</a>
   </div>
 </footer>
