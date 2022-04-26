@@ -42,9 +42,9 @@
 
     body {
       margin: auto;
-      margin-top:    .5%;
-      margin-bottom: .5%;
-      max-width: 1666px;
+      #margin-top:    .5%;
+      #margin-bottom: .5%;
+      xmax-width: 1666px;
       
       font-family: sans-serif;
       font-family: Avenir, "Helvetica Neue", Helvetica, Roboto, Corbel, sans-serif;
@@ -122,7 +122,8 @@
   }
 
   .contentpaddingleft {
-    padding: 60px;
+    padding:      60px;
+    padding-left:  0px;
   }
   .contentpaddingright {
     padding: 40px;
@@ -193,7 +194,7 @@
 
 </head>
 
-<body class="shadow">
+<body class="">
 
 <!-- Header -->
 <header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
@@ -207,7 +208,33 @@
     </div>
     <div class="rightside" style="
       background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
-      <div class="menupadding">·</div>
+      <div class="menupadding">·
+
+<script type="text/javascript">
+  
+  var s = document.styleSheets[0];
+
+  function changeStylesheetRule( selector, property, value ) {
+    selector = selector.toLowerCase();
+    property = property.toLowerCase();
+    value = value.toLowerCase();
+
+    for( var i = 0; i < s.cssRules.length; i++ ) {
+      var rule = s.cssRules[i];
+      if( rule.selectorText === selector ) {
+        rule.style[property] = value;
+        return;
+      }
+    }
+    
+    s.insertRule( selector + " { " + property + ": " + value + "; }", 0 );
+  }
+
+</script>
+<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid' )">On</button> / 
+<button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
+
+      </div>
     </div> 
   </div>
   
@@ -252,7 +279,7 @@
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
       <div class="contentpaddingleft">
       
-<div class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
+<div align="right" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
 
       </div> 
     </div>
