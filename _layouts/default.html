@@ -210,6 +210,7 @@
       background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
       <div class="menupadding">·
 
+<!-- Debug button -->
 <script type="text/javascript">
   
   var s = document.styleSheets[0];
@@ -277,7 +278,7 @@
 <!-- Main content -->
 <content class="contentcontainer" style="width: 100%;">
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
-      <div class="contentpaddingleft">
+      <div class="contentpaddingleft" style="{{ page.contentStyleOverride }}">
       
 <div align="right" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
 
