@@ -25,7 +25,7 @@ xbeforeContent:          '<div><div style="position: relative; width: 100%; heig
 
 <div class="rainbow"></div>
 
-<p><div style="column-count: 3; column-gap: 50px; column-rule: 2px solid lightgrey;">
+<p><div style="column-count: 2; column-gap: 50px; column-rule: 2px solid lightgrey;">
     {% assign sorted-posts = site.posts | reverse %}
 	{% for post in sorted-posts %}
 	
