@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <!-- 
-#                                       __ _      _          _                                   _
-#                                      / _| |    (_)        | |                                 | |
-#   __ _ _   _  ___  _ __ __ _ _   _  | |_| | ___ _ ___  ___| |__  _ __ ___   __ _ _ __  _ __   | |__  _   _
-#  / _` | | | |/ _ \| '__/ _` | | | | |  _| |/ _ \ / __|/ __| '_ \| '_ ` _ \ / _` | '_ \| '_ \  | '_ \| | | |
-# | (_| | |_| | (_) | | | (_| | |_| |_| | | |  __/ \__ \ (__| | | | | | | | | (_| | | | | | | |_| | | | |_| |
-#  \__, |\__, |\___/|_|  \__, |\__, (_)_| |_|\___|_|___/\___|_| |_|_| |_| |_|\__,_|_| |_|_| |_(_)_| |_|\__,_|
-#   __/ | __/ |           __/ | __/ |
-#  |___/ |___/           |___/ |___/
+#
+#      __    __              ______     _           __                                  __         
+#     / /_  / /___  ____ _  / __/ /__  (_)_________/ /_  ____ ___  ____ _____  ____    / /_  __  __
+#    / __ \/ / __ \/ __ `/ / /_/ / _ \/ / ___/ ___/ __ \/ __ `__ \/ __ `/ __ \/ __ \  / __ \/ / / /
+#   / /_/ / / /_/ / /_/ / / __/ /  __/ (__  ) /__/ / / / / / / / / /_/ / / / / / / / / / / / /_/ / 
+#  /_.___/_/\____/\__, (_)_/ /_/\___/_/____/\___/_/ /_/_/ /_/ /_/\__,_/_/ /_/_/ /_(_)_/ /_/\__,_/  
+#                /____/                                                                            
 # -----------------------------------------------------------------------------------------------------------
 
+#
 # Jekyll based web page POC v2 on GitHub
 # 
 # 
@@ -126,7 +126,7 @@
     padding-left:  0px;
   }
   .contentpaddingright {
-    padding: 40px;
+    padding: 38px;
   }
 
   @media only screen and ( max-width: 800px ) {
@@ -195,7 +195,7 @@
 
 </head>
 
-<body class="">
+<body>
 
 <!-- Header -->
 <header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
@@ -279,20 +279,16 @@
 <!-- Main content -->
 <content class="contentcontainer" style="width: 100%;">
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
-      <div class="contentpaddingleft" style="{{ page.contentStyleOverride }}">
+      <div class="contentpaddingleft" style="{{ page.contentpaddingleftStyleOverride }}">
       
 <div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
 
       </div> 
     </div>
     <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 );">
-
 {{ page.beforeContent }}
-
       <div {% if page.disableContentPadding != 'yes' %}class="contentpaddingright"{% endif %}>
-
 {{ content }}
-
       </div>
     </div>
 </content>
