@@ -15,10 +15,13 @@ headerRIGHTtext:  '<h1>⬅</h1>'
 
 disableContentTitle:   ''
 disableContentPadding: ''
-contentpaddingleftStyleOverride:  'padding: 15px;'
+contentpaddingleftStyleOverride:  'padding: 0px;'
 
-xbeforeContent:          '<div><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-<iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zcua9XzKVas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>'
+xbeforeContent:          '<div><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zcua9XzKVas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>'
+
+contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a href="https://twitter.com/FleXoft"><img style="width: 80%; margin-bottom: 3%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Twitter_2010_logo_-_from_Commons.svg/1024px-Twitter_2010_logo_-_from_Commons.svg.png"></a></center>
+<center style="background-color: lightgrey; padding: 20px;">
+<a class="twitter-timeline" href="https://twitter.com/FleXoft?ref_src=twsrc%5Etfw" data-tweet-limit="5" data-dnt="true" data-chrome="noheader nofooter noscrollbar noborders transparent" data-lang="en"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><center><i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i></center>'
 ---
 
 {% if page.disableContentTitle != 'yes' %}<h1>{{ page.title }}</h1>{% endif %}

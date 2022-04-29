@@ -58,6 +58,20 @@
       #-webkit-text-size-adjust: 100%;
     }
 
+  .initial {
+    float: left;
+    display: block;
+    color: #903;
+    font-size: 110px;
+    line-height: 0.80em;
+    padding-top: 12px;
+    padding-right: 11px;
+    padding-left: 0px;
+    margin-left: -6px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px #2a2f35;
+  }
+
   .shadow {
     -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
     -moz-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
@@ -69,7 +83,7 @@
     border: 0px solid;    
   }
   div.rightbox {
-    margin-left:   25px;
+    margin-left:   30px;
     margin-bottom: 0;
     margin-top:    0;
     padding:       0;
@@ -282,6 +296,8 @@
       <div class="contentpaddingleft" style="{{ page.contentpaddingleftStyleOverride }}">
       
 <div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
+
+{{ page.contentLeft }}
 
       </div> 
     </div>
