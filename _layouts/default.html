@@ -219,7 +219,11 @@
   <div style="width: 100%; display: flex;">
     <div class="leftside" style="
       background: rgba( 255, 0, 0, 0.80 ); color: white; text-align: center;">
-      <div class="menupadding">fleischmann.hu</div>
+      <div class="menupadding">
+        
+{% if page.url == '/' %}blog.<a href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a href="/" title="Home"><b>{{ site.title }}</b></a>{% endif %}
+              
+      </div>
     </div>
     <div class="rightside" style="
       background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
