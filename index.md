@@ -49,27 +49,5 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 		{% if forloop.last %}</ul></div>{% endif %}
 	
 	{% endfor %}
-	
-	{% for post in sorted-posts %}
-	
-		  {% assign currentdate = post.date | date: "%Y" %}
-	
-		  {% if currentdate != date %}
-			{% unless forloop.first %}</ul></div>{% endunless %}
-			<div style="width: 100%; border: 0px solid; display: inline-block;">
-			<hr width="100%">
-			<div style="border: 0px solid;"><h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1></div>
-			<hr width="100%">
-			<ul style="border: 0px solid;">
-			{% assign date = currentdate %}
-		  {% endif %}
-		  
-		<li><a href="{{ post.url }}">{{ post.date | date: "%m.%d." }} - {{ post.title }}</a></li>
-		  
-		{% if forloop.last %}</ul></div>{% endif %}
-	
-	{% endfor %}
-	
 </div></p>
-
 <div class="rainbow"></div>
