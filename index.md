@@ -34,17 +34,20 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 	
   		{% assign currentdate = post.date | date: "%Y" %}
 	
+{% assign YEAR = post.date | date: "%Y" %}
+
   		{% if currentdate != date %}
 			{% unless forloop.first %}</ul></div>{% endunless %}
 			<div style="width: 100%; border: 0px solid; display: inline-block;">
-			<hr width="100%">
-			<div style="border: 0px solid;"><h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1></div>
-			<hr width="100%">
+			<hr width="100%" style="margin: 0px">
+			<h2 id="y{{ YEAR }}" style="margin: 0px">{% if YEAR != '0000' %}{{ YEAR }}{% else %}Other{% endif %}</h2>
+			<hr width="100%" style="margin: 0px">
 			<ul style="border: 0px solid;">
 			{% assign date = currentdate %}
   		{% endif %}
   		
-		<li><a href="{{ post.url }}">{{ post.date | date: "%m.%d." }} - {{ post.title }}</a></li>
+		<li><a href="{{ post.url }}">{% if YEAR != '0000' %}{{ post.date | date: "%m.%d." }} - {{ post.title }}{% else %}{{ post.title }}{% endif %}</a></li>  
+		
   		
 		{% if forloop.last %}</ul></div>{% endif %}
 	
