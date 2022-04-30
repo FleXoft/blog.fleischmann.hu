@@ -2,7 +2,7 @@
 layout:   default
 title:    INDEX (ez egy teszt oldal)
 author:   flex
-category: Muzax
+category: index
 tags:     [muzax, video]
 comments: false
 
@@ -28,29 +28,61 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 
 <div class="rainbow"></div>
 
-<p><div class="tableofcontents">
-    {% assign sorted-posts = site.posts | reverse %}
-	{% for post in sorted-posts %}
-	
-  		{% assign currentdate = post.date | date: "%Y" %}
-	
-{% assign YEAR = post.date | date: "%Y" %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
 
-  		{% if currentdate != date %}
-			{% unless forloop.first %}</ul></div>{% endunless %}
-			<div style="width: 100%; border: 0px solid; display: inline-block;">
-			<hr width="100%" style="margin: 0px">
-			<h2 id="y{{ YEAR }}" style="margin: 0px">{% if YEAR != '0000' %}{{ YEAR }}{% else %}Other{% endif %}</h2>
-			<hr width="100%" style="margin: 0px">
-			<ul style="border: 0px solid;">
-			{% assign date = currentdate %}
-  		{% endif %}
-  		
-		<li><a href="{{ post.url }}">{% if YEAR != '0000' %}{{ post.date | date: "%m.%d." }} - {{ post.title }}{% else %}{{ post.title }}{% endif %}</a></li>  
-		
-  		
-		{% if forloop.last %}</ul></div>{% endif %}
-	
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<div style="width: 65%; margin: auto; padding: 30px; text-align: center;">
+
+{% assign tmptags = site.tags | sort %}
+{% for tag in tmptags %}
+{% assign fontsize = tag | last | size | times: 3 | plus: 80 %}
+{% if fontsize > 225 %}
+	{% assign fontsize = 225 %}
+	{% assign boldfont = "font-weight: bold;" %}
+{% endif %}
+  <a href="#{{ tag | first | slugify }}" style="font-size: {{ fontsize }}%; {{ boldfont }}">{{ tag[0] }}{% if tag.last.size > 1 %}({{ tag | last | size }})
+{% endif %}
+  </a>
+{% endfor %}
+
+</div>
+
+<p><div class="tableofcontents">
+
+{% assign tmpcategories = site.categories %}
+{% for category in tmpcategories %}
+	<div style="width: 100%; border: 0px solid; display: inline-block;">
+	{% capture category_name %}{{ category | first }}{% endcapture %}
+	<hr width="100%" style="margin: 0px">
+	<h2 style="margin: 0px">{{ category_name }}</h2>
+	<hr width="100%" style="margin: 0px">
+	<ul>
+	<a name="{{ category_name | slugize }}"></a>
+	{% for post in site.categories[category_name] %}
+		<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
 	{% endfor %}
+	</ul></div>
+	
+{% endfor %}
 </div></p>
 <div class="rainbow"></div>

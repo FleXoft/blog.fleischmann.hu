@@ -138,11 +138,30 @@
   }
 
   .contentpaddingleft {
-    padding:      60px;
+    padding:      58px;
     padding-left:  0px;
   }
   .contentpaddingright {
     padding: 38px;
+  }
+
+  .tableofcontents {
+    column-count:  2; 
+    column-gap:   50px; 
+    column-rule:   2px solid lightgrey;
+  }
+  
+  .rainbow{
+    width: 100%;
+    height: 8px;
+    background-repeat:repeat-x;
+    background: linear-gradient(to right, #eb5252, #f78f2f, #f4c151, #75d850, #6284FF, #eb5252);
+    animation: rainbow 10s linear infinite;
+    background-size: 200% 100% !important;
+  }
+  @keyframes rainbow{
+    0% {background-position: 0;}
+    100% {background-position: 800% 0;}
   }
 
   @media only screen and ( max-width: 800px ) {
@@ -164,7 +183,13 @@
     }
 
     .contentpaddingleft {
-      padding: 30px;
+      padding: 20px;
+    }
+
+  .tableofcontents {
+      column-count:  1; 
+      column-gap:   50px; 
+      column-rule:   2px solid lightgrey;
     }
 
   }
@@ -188,25 +213,18 @@
     }
 
     .contentpaddingleft {
-      padding: 10px;
+      padding:  10px;
       text-align: left;
+    }
+    
+    .tableofcontents {
+      column-count: 1; 
+      column-gap:  50px; 
+      column-rule:  2px solid lightgrey;
     }
 
   }
-
-  .rainbow{
-    width: 100%;
-    height: 8px;
-    background-repeat:repeat-x;
-    background: linear-gradient(to right, #eb5252, #f78f2f, #f4c151, #75d850, #6284FF, #eb5252);
-    animation: rainbow 10s linear infinite;
-    background-size: 200% 100% !important;
-  }
-  @keyframes rainbow{
-    0% {background-position: 0;}
-    100% {background-position: 800% 0;}
-  }
-
+  
   </style>
 
 </head>
@@ -301,7 +319,8 @@
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
       <div class="contentpaddingleft" style="{{ page.contentpaddingleftStyleOverride }}">
       
-<div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>
+{% assign YEAR = page.date | date: "%Y" %}
+{% if YEAR != '0000' %}<div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
 
 {{ page.contentLeft }}
 

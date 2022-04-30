@@ -2,7 +2,7 @@
 layout:   post
 title:    Szülinapi ebéd szerveződés
 author:   flex
-category: life
+category: 2022
 tags:     [life]
 comments: false
 
