@@ -225,6 +225,32 @@
 
   }
   
+  /* Create four equal columns that floats next to each other */
+  .column {
+    margin-top: -0.7em;
+    float: left;
+    width: 23%;
+    padding: 1%;
+  }
+  
+  .column img {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+  }
+  
+  .row {
+    margin-left: -1%;
+    margin-right: -1%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
   </style>
 
 </head>
