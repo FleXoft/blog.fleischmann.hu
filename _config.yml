@@ -18,10 +18,10 @@ highlighter: rouge
 extensions:  [footnotes]
 
 sass:
-  sass_dir: css
-  style:    expanded
+  sass_dir:  css
+  style:     expanded
 
-permalink: /:title
+permalink:   /:title
 
 exclude:
 - README.md
