@@ -14,6 +14,15 @@
 # Jekyll based web page POC v2 on GitHub
 # 
 # 
+# ToDo:
+#
+#   képfeliratok a zenével együtt
+#   include dobozok készíítése az elemekhez (vonal, yotube, spoty, soundcloud)
+#   photo album berakás
+#   tag-ek kiírása
+#   https://docs.google.com/document/d/1mUCZY6DL-iUpC6CbNleBHk7vgsrAaknD2GcM3nUJLoM/edit
+#
+#
 # Rls: 2022.05.01.  
 #
 -->
@@ -175,6 +184,27 @@
     0% {background-position: 0;}
     100% {background-position: 800% 0;}
   }
+  
+  .rightfloatingbox {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    opacity: 1;
+    #visibility: hidden;
+    #opacity: 0;
+    #transition: visibility 0s 1s, opacity 1s linear;
+    -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+  }
+  
+  .photosource {
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 20px;
+  }
 
   @media only screen and ( max-width: 800px ) {
 
@@ -264,10 +294,31 @@
   }
   
   </style>
+  
+  <!-- UI JS file -->  
+  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+  <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+  
+  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+  <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+  <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 
 </head>
 
 <body>
+
+<a href="https://fleischmann.hu/" title="fleischmann.hu"><center class="rightfloatingbox" style="padding: 5px; font-size: 60%; "><font color="#008f3f">F</font><br>
+<font color="#0057a6">L</font><br>
+<font color="#77147e">E</font><br>
+<font color="#f5a301">I</font><br>
+<font color="#e50005">S</font><br>
+<font color="#a8361e">C</font><br>
+<font color="#82cfed">H</font><br>
+<font color="#0191b4">M</font><br>
+<font color="#dd5e01">A</font><br>
+<font color="#777"   >N</font><br>
+<font color="#FFF"   >N</font><br>
+</center></a>
 
 <!-- Header -->
 <header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
