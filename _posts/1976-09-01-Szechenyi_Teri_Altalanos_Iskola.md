@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Visszaemlékezés 1976...1984
+title:    Széchenyi Téri Általános Iskola, Mohács
 author:   flex
 category: 1976...1984
 tags:     [life]
