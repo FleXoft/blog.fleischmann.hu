@@ -1,8 +1,8 @@
 ---
 layout:   post
-title:    Balázsy Eszter, 1985.06.??.
+title:    Mohácsi Farostlemezgyár I.
 author:   flex
-category: 1984...1988
+category: 1991...1993
 tags:     [about]
 comments: false
 

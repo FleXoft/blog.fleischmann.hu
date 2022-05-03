@@ -1,8 +1,8 @@
 ---
 layout:   post
-title:    Balázsy Eszter, 1985.06.??.
+title:    Kötelező katonai szolgálat, Szentendre, Baja
 author:   flex
-category: 1984...1988
+category: 1993...1994
 tags:     [about]
 comments: false
 

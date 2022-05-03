@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Visszaemlékezés 1970...1976
+title:    Bölcsőde, óvoda
 author:   flex
 category: 1970...1976
 tags:     [life]
@@ -28,7 +28,8 @@ Kezdjük is akkor ezt a "történetet" folyamot egészen az elejéről!
 <div class="rightbox" style="margin-top: 5px;"><iframe class="	shadow" src="https://open.spotify.com/embed/album/3YRB5HRzzcxxUbBMjnibcf" width="100%" height="390" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
 
 Amennyire én tudom, a születésem tényleg nem lehetett egy "leányálom" anyámnak - főleg úgy, hogy láttam már közelről pár születést -, aki az elmondásai alapján nagyon megkínlódott velem. Majdnem elvérzett a szülésben, mivel én sem segítettem nagyon a folyamatot, azaz nem nagyon akartam magamtól valahogy erre a világra megszületni. Magához a születésemhez az akkori technikák közül - ha igazak az elmesélt történetek és miért is ne lennének már azok -, akkor a szülőfogó nevű frappáns kis eszközt használták fel  segítségként.
-Így, már néhány év eltelte után, bátran kijelenthetjük, hogy nagyon sokat nem ártottak végül ezzel a szerkezettel nekem, bár már egyre többször érzem azt, hogy az én életem is lassan véges lesz. ✞ Esténként puffadok, sokszor zsibbad már reggelente a bal kezem, többször megmagyarázhatatlanul nekem is fáj már-már a fejem (korábban ilyenem sem volt) és összevissza dobog gyakran, nekem már nagyon zavaró módon a "kis" szívem... és amúgy is eleget láttam, éltem már. Ha az elét elég kegyes lesz hozzám, akkor nem apám halála előtt megyek majd el! Na de ne ugorjunk azért még ennyire a történet végére rögtön az elején!!!
+Így, már néhány év eltelte után, bátran kijelenthetjük, hogy nagyon sokat nem ártottak végül ezzel a szerkezettel nekem, bár már egyre többször érzem azt, hogy az én életem is lassan véges lesz. ✞ 
+Esténként puffadok, sokszor zsibbad már reggelente a bal kezem, többször megmagyarázhatatlanul nekem is fáj már-már a fejem (korábban ilyenem sem volt) és összevissza dobog gyakran, nekem már nagyon zavaró módon a "kis" szívem... és amúgy is eleget láttam, éltem már. Ha az elét elég kegyes lesz hozzám, akkor nem apám halála előtt megyek majd el! Na de ne ugorjunk azért még ennyire a történet végére rögtön az elején!!!
 
 A szülés után pár hónappal már a Mohácsi Városi Bölcsőde (7700 Mohács, Dózsa György utca 9.) műintézmény tagja lettem. Magáról a bölcsiről nem sok emlékem maradt meg, de anyám által sokat emlegetett történet alapján már 6 hónaposan szobatiszta voltam... 🤣
 

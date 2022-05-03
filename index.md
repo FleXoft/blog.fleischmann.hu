@@ -2,11 +2,11 @@
 layout:   default
 title:    INDEX (ez egy teszt oldal)
 author:   flex
-category: Muzax
+category: index
 tags:     [muzax, video]
 comments: false
 
-headerSIZE:       570px
+headerSIZE:       670px
 headerBGimage:    'https://video-images.vice.com/articles/6259c2576032f900969ad342/lede/1650049778845-russiancruisermoskva.jpeg'
 headerBGimagesrc: 'https://www.vice.com/en/article/v7dkpx/a-piece-of-the-true-cross-may-have-sunk-with-russias-warship'
 headerBGposition: 'background-position: center;'
@@ -28,29 +28,62 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 
 <div class="rainbow"></div>
 
-<p><div class="tableofcontents">
-    {% assign sorted-posts = site.posts | reverse %}
-	{% for post in sorted-posts %}
-	
-  		{% assign currentdate = post.date | date: "%Y" %}
-	
-{% assign YEAR = post.date | date: "%Y" %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
 
-  		{% if currentdate != date %}
-			{% unless forloop.first %}</ul></div>{% endunless %}
-			<div style="width: 100%; border: 0px solid; display: inline-block;">
-			<hr width="100%" style="margin: 0px">
-			<h2 id="y{{ YEAR }}" style="margin: 0px">{% if YEAR != '0000' %}{{ YEAR }}{% else %}Other{% endif %}</h2>
-			<hr width="100%" style="margin: 0px">
-			<ul style="border: 0px solid;">
-			{% assign date = currentdate %}
-  		{% endif %}
-  		
-		<li><a href="{{ post.url }}">{% if YEAR != '0000' %}{{ post.date | date: "%m.%d." }} - {{ post.title }}{% else %}{{ post.title }}{% endif %}</a></li>  
-		
-  		
-		{% if forloop.last %}</ul></div>{% endif %}
-	
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<div style="width: 65%; margin: auto; padding: 30px; text-align: center;">
+
+{% assign tmptags = site.tags | sort %}
+{% for tag in tmptags %}
+{% assign fontsize = tag | last | size | times: 3 | plus: 80 %}
+{% if fontsize > 225 %}
+	{% assign fontsize = 225 %}
+	{% assign boldfont = "font-weight: bold;" %}
+{% endif %}
+  <a href="#{{ tag | first | slugify }}" style="font-size: {{ fontsize }}%; {{ boldfont }}">{{ tag[0] }}{% if tag.last.size > 1 %}({{ tag | last | size }})
+{% endif %}
+  </a>
+{% endfor %}
+
+</div>
+
+<p><div class="tableofcontents">
+
+{% assign tmpcategories = site.categories %}
+{% for category in tmpcategories %}
+	<div style="width: 100%; border: 0px solid; display: inline-block;">
+	{% capture category_name %}{{ category | first }}{% endcapture %}
+	<hr width="100%" style="margin: 0px">
+	<h2 style="margin: 0px">{{ category_name }}</h2>
+	<hr width="100%" style="margin: 0px">
+	<ul>
+	{% assign site_list = site.categories[category_name] | sort:"date" %}
+	{% for post in site_list %}
+		<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
 	{% endfor %}
+	</ul>
+	</div>
+{% endfor %}
+
 </div></p>
 <div class="rainbow"></div>
