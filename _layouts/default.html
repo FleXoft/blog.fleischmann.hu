@@ -60,7 +60,7 @@
     html {
 
     }
-
+    
     body {
       margin: auto;
       #margin-top:    .5%;
@@ -131,13 +131,15 @@
 
   .leftside {
     min-width: 270px;
-    width: 20%; 
-    float: left;
+    width: 20%;
+    display: inline-block; 
+  ;
   }
 
   .rightside {
-    width: 80%; 
-    float: left;
+    width: 80%;
+    margin: 0px;
+    display: inline-block;
   }
 
   .menupadding {
@@ -329,7 +331,7 @@
   background-image:url({{ page.headerBGimage }});">
 
   <!-- Menubar -->
-  <div style="width: 100%; display: flex;">
+  <div style="width: 100%; white-space :nowrap; display: flex">
     <div class="leftside" style="
       background: rgba( 255, 0, 0, 0.80 ); color: white; text-align: center;">
       <div class="menupadding">
@@ -337,8 +339,7 @@
 {% if page.url == '/' %}blog.<a href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a href="/" title="Home"><b>{{ site.title }}</b></a>{% endif %}
               
       </div>
-    </div>
-    <div class="rightside" style="
+    </div><div class="rightside" style="
       background: rgba( 0, 0, 0, 0.75 ); color: white; text-align: left;">
       <div class="menupadding">·
 
@@ -364,7 +365,7 @@
   }
 
 </script>
-<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid' )">On</button> / 
+<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid yellow' )">On</button> / 
 <button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
 
 <a href="i">new i</a>
@@ -392,14 +393,10 @@
       </div>
 
       <!-- Bottom part -->
-      <div style="position: absolute; bottom: 0px; right: 0px; width: 100%; opacity: 0.45;">
+      <div style="position: absolute; width: 100%; bottom: 0px; right: 0px; opacity: 0.45;">
 
-        <!-- Pic source -->  
-        <div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div>
+{{ page.headerMUZAX }}
 
-        <!-- Soundcloud BIG -->
-        {{ page.headerMUZAX }}
-      
       </div>
       <!-- End of bottom part  -->
 
