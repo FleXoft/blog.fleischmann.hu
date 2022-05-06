@@ -17,6 +17,8 @@ disableContentTitle:   ''
 disableContentPadding: ''
 contentpaddingleftStyleOverride:  'padding: 0px;'
 
+headerMUZAX:   	  '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 5px;">Source: <a href="https://fleischmann.hu/">www.fleischmann.hu</a></div></div>'
+
 xbeforeContent:          '<div><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zcua9XzKVas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>'
 
 contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a href="https://twitter.com/FleXoft"><img style="width: 80%; margin-bottom: 3%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Twitter_2010_logo_-_from_Commons.svg/1024px-Twitter_2010_logo_-_from_Commons.svg.png"></a></center>
@@ -25,8 +27,6 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 ---
 
 {% if page.disableContentTitle != 'yes' %}<h1>{{ page.title }}</h1>{% endif %}
-
-<div class="rainbow"></div>
 
 {% assign rawtags = "" %}
 {% for post in site.posts %}
@@ -73,7 +73,6 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 {% for category in tmpcategories %}
 	<div style="width: 100%; border: 0px solid; display: inline-block;">
 	{% capture category_name %}{{ category | first }}{% endcapture %}
-	<hr width="100%" style="margin: 0px">
 	<h2 style="margin: 0px">{{ category_name }}</h2>
 	<hr width="100%" style="margin: 0px">
 	<ul>
@@ -86,4 +85,3 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 {% endfor %}
 
 </div></p>
-<div class="rainbow"></div>
