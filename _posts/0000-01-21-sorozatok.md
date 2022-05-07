@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Könyvek
+title:    Sorozatok
 author:   flex
 category: About
 tags:     [about]
@@ -20,3 +20,4 @@ contentpaddingleftStyleOverride:  ''
 xbeforeContent:          '<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
 <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zcua9XzKVas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 ---
+

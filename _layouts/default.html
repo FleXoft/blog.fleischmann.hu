@@ -133,7 +133,18 @@
     color: blue;
     text-decoration: none;
   }
+
+  p a, a:visited {
+    color: black;
+    text-decoration: underline;
+    font-weight: 400;
+  }
   
+  p a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
   a.menu, a:visited.visited {
     color: red;
     text-decoration: none;
@@ -354,6 +365,7 @@
 
 <body>
 
+<!--
 <a href="https://fleischmann.hu/" title="fleischmann.hu"><center class="rightfloatingbox" style="padding: 5px; font-size: 60%; "><font color="#008f3f">F</font><br>
 <font color="#0057a6">L</font><br>
 <font color="#77147e">E</font><br>
@@ -366,6 +378,7 @@
 <font color="#777"   >N</font><br>
 <font color="#FFF"   >N</font><br>
 </center></a>
+-->
 
 <!-- Header -->
 <header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
@@ -406,8 +419,10 @@
   }
 
 </script>
+<!--
 <button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid yellow' )">On</button> / 
 <button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
+-->
 
       </div>
     </div> 
@@ -432,9 +447,9 @@
       </div>
 
       <!-- Bottom part -->
-      <div style="position: absolute; width: 100%; bottom: 0px; right: 0px; opacity: 0.45;">
+      <div style="position: absolute; width: 100%; bottom: 0px; right: 0px; opacity: 0.7;">
 
-{{ page.headerMUZAX }}
+{{ page.headerRIGHTbottomtext }}
 
       </div>
       <!-- End of bottom part  -->

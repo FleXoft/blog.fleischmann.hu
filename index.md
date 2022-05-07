@@ -17,7 +17,7 @@ disableContentTitle:   ''
 disableContentPadding: ''
 contentpaddingleftStyleOverride:  'padding: 0px;'
 
-headerMUZAX:   	  '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 5px;">Source: <a href="https://fleischmann.hu/">www.fleischmann.hu</a></div></div>'
+headerRIGHTbottomtext: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="https://www.vice.com/en/article/v7dkpx/a-piece-of-the-true-cross-may-have-sunk-with-russias-warship">"A Piece of the True Cross May Have Sunk with Russia’s Warship"</a></div></div>'
 
 xbeforeContent:          '<div><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/zcua9XzKVas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>'
 
