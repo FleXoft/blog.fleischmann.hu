@@ -3,7 +3,7 @@ layout:   post
 title:    Széchenyi Téri Általános Iskola, Mohács
 author:   flex
 category: 1976...1984
-tags:     [life]
+tags:     [life, sorsfordító]
 comments: true
 
 headerSIZE:       450px
@@ -16,7 +16,9 @@ headerMUZAX:      '<iframe style="margin-bottom: -10px" src="https://open.spotif
 ## 1976., szeptember 1. - 1984., szeptember 1. (általános iskola)
 #### Széchenyi Téri Általános Iskola (7700 Mohács, Széchenyi tér 17.)
 
-<div class="rightbox" style="width: 30%; margin-top: 10px;"><img class="shadow" src="photos/vissza/gy_1osztaly.JPG" alt="1. osztály" title="1. osztály"/></div>
+<center>1964. számú Kanizsai Dorottya Úttörőcsapat vigyázz, középre nézz!</center>
+
+<div class="rightbox" style="width: 30%; margin-top: 35px;"><img class="shadow" src="photos/vissza/gy_1osztaly.JPG" alt="1. osztály" title="1. osztály"/></div>
 
 <span class="initial">M</span>indenféle különösebben nagy stressz nélkül kezdődött nekem az általános iskola, ahova talán ha 1 hétig kísérgetett anyukám reggelente és utána -, mint mindenki más abban az időben - önjáró lettem, nem úgy, mint a mai "modern" gyerek. Nagyon emlékszem még az alsós időkből Szökőts Béla tanárúrra, amint tesiórákat és talán még a rajzórákat is (???) tartja nekünk és szuperül tud fütyülni mindenféle extra technikákkal. Sajnos nekem azóta sem sikerült így megtanulnom fütyülni. :-(
 
@@ -28,13 +30,10 @@ Emlékszem még, hogy a [Tolbuhin](https://hu.wikipedia.org/wiki/Fjodor_Ivanovic
 
 Akikkel összejártam ebben az időben azok: a Kalocsai testvérek, de leginkább [Lacika](https://www.facebook.com/laszlo.kalocsai.96), Kalotai Péter, [Husz Zoltán](https://www.facebook.com/zoltan.husz) aztán ott voltak még a Pereszlényi testvérek (Zsolt (), László), akikkel sokáig egy lépcsőházban laktunk és talán az ő helyükre költöztek a Kalotaiék egy időre. 
 
-<div class="rightbox" style="width: 25%;">
-	<div class="rightboxborders" style="margin: 0;"><b>Sorsfordító 1.</b></div>
-	<div class="rightbox" style="margin-top: 0;">
-		<img class="shadow" src="photos/vissza/IMG_8962.JPG">
-	</div>
-</div>
+<div class="rightbox" style="width: 25%; margin-top: 35px;"><img class="shadow" src="photos/vissza/IMG_8962.JPG" alt="1. osztály" title="1. osztály"></div>
 
-Valamikor itt történt még meg az az ominózus eset is, hogy Szűcs Gábor (akivel eddig a pontig elég jó volt a kapcsolatom és ha változott is idővel, akkor nem magától ettől az esettől változott meg) osztálytársam a napközi WC-jében úgy lökte meg a fejem a mosdókagylóhoz, hogy az egyik felső, középső metszőfogam egyik sarka letört. Ez az eset azóta is rendesem beragadt az emlékezetembe és sokszor bevillan. Nagyon mély és nagyon rossz emléket hagyott bennem. A jobb oldali képen már látszik ennek a balesetnek a nyoma.
+Valamikor itt történt még meg az az ominózus eset is, hogy Szűcs Gábor (akivel eddig a pontig elég jó volt a kapcsolatom és ha változott is idővel, akkor nem magától ettől az esettől változott meg) osztálytársam a napközi WC-jében úgy lökte meg a fejem a mosdókagylóhoz, hogy az egyik felső, középső metszőfogam egyik sarka letört. Ez az eset azóta is rendesem beragadt az emlékezetembe és sokszor bevillan. Nagyon mély és nagyon rossz emléket hagyott bennem. A jobb oldali képen már talán látszik is ennek a balesetnek a nyoma.
 
 Volt egy nyár, amikor a nyári napközibe levittem (nem tudom, hogy ez mennyire volt előtte leegyeztetve???) a család hordozható magnóját, egy Boney M. kazettával a Fogadalmi Nagytemplom mögé és ott vagánykodtam vele.
+
+Az úttörőmozgalom végleg 1989-ben szűnt meg.

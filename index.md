@@ -1,6 +1,6 @@
 ---
 layout:   default
-title:    INDEX (ez egy teszt oldal)
+title:    Tartalomjegyzék
 author:   flex
 category: index
 tags:     [muzax, video]
