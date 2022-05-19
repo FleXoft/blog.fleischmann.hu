@@ -10,7 +10,7 @@ headerSIZE:       550px
 headerBGimage:    'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2018_41/2603736/181013-skid-row-los-angeles-ew-555p.jpg'
 headerBGposition: 'background-position: center;'
 headerLEFTtext:   '<h1>Skid</h1>'
-headerRIGHTtext:  '<h1>Row</h1>'
+headerRIGHTtext:  '<h1 style="color: white;">Row</h1>'
 
 disableContentTitle:   ''
 disableContentPadding: ''
