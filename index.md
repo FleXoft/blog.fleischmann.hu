@@ -26,6 +26,14 @@ contentLeft: '<center style="background-color: lightgrey; padding-top: 55px;"><a
 <a class="twitter-timeline" href="https://twitter.com/FleXoft?ref_src=twsrc%5Etfw" data-tweet-limit="3" data-dnt="true" data-chrome="noheader nofooter noscrollbar noborders transparent" data-lang="en"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><center><i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i></center>'
 ---
 
+<style type="text/css">
+
+  li {
+	list-style-type: none;
+  }
+
+</style>
+
 {% if page.disableContentTitle != 'yes' %}<h1>{{ page.title }}</h1>{% endif %}
 
 {% assign rawtags = "" %}
