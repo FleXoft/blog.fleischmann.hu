@@ -10,6 +10,8 @@ headerSIZE:       '0px'
 headerBGimage:    ''
 headerBGposition: 'background-position: bottom;'
 
+contentLeft:   '<p><img class="shadow" src="https://static.posters.cz/image/750webp/81189.webp"></p><p><img class="shadow" src="https://static.posters.cz/image/750webp/83468.webp"></p>'
+
 beforeContent:		   '<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
 <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/3h8Cxn8ECHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 
