@@ -11,6 +11,8 @@ headerBGimage:    'https://upload.wikimedia.org/wikipedia/commons/5/51/Small_Red
 headerBGposition: 'background-position: center;'
 
 headerMUZAX:      '<iframe style="margin-bottom: -10px" src="https://open.spotify.com/embed/track/6fMZJZqhauwGrwobkPZVJ7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>'
+
+contentLeft:   '<p style="padding: 15px; padding-top: 0px;"><img class="shadow" src="https://szechenyi-mohacs.edu.hu/wp-content/uploads/2022/02/cropped-cropped-20220118_091859-scaled-1.png"></p>'
 ---
 
 ## 1976., szeptember 1. - 1984., szeptember 1. (általános iskola)

@@ -13,7 +13,7 @@ headerBGposition: 'background-position: center;'
 xbeforeContent:	  '<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
 <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ec6_rZ6llI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 
-contentLeft:   '<p style="padding-left: 60px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
+contentLeft:   '<p style="padding: 15px; padding-top: 0px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
 
 contentpaddingleftStyleOverride:  ''
 ---
