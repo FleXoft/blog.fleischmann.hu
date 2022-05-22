@@ -223,42 +223,14 @@
     padding-bottom: 0px;
   }
   .contentpaddingright {
-    padding:        38px;
-    padding-bottom: 20px;
+    padding: 38px;
+    padding-bottom: 10px;
   }
 
   .tableofcontents {
     column-count:  2; 
     column-gap:   50px; 
     column-rule:   2px solid lightgrey;
-  }
-  
-  .footnotes {
-    clear: both;
-    padding: 0;
-    padding-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-  }
-  
-  .footnotes p {
-    font-size: 1em;
-    color: #594f40;
-    line-height: 1.7;
-  }
-  
-  .footnotes p:last-child {
-    margin-bottom: 0.65rem;
-  }
-  
-  .footnotes p:target {
-    background-color: #ffffeb;
-    padding: 3px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
   }
   
   .rainbow{
@@ -464,23 +436,23 @@
     height: {{ page.headerSIZE }};">
     <div class="leftside" style="
       background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right;">
-      <div class="menupadding" style="{{ page.headerLEFTStyleOverride }}">
+      <div class="menupadding">
 
-{{ page.headerLEFT }}
+{{ page.headerLEFTtext }}
 
       </div>  
     </div>
     <div class="rightside" style="position: relative;">
-      <div class="menupadding" style="{{ page.headerRIGHTStyleOverride }}">
+      <div class="menupadding">
 
-{{ page.headerRIGHT }}
+{{ page.headerRIGHTtext }}
 
       </div>
 
       <!-- Bottom part -->
       <div style="position: absolute; width: 100%; bottom: 0px; right: 0px; opacity: 0.7;">
 
-{{ page.headerRIGHTbottom}}
+{{ page.headerRIGHTbottomtext }}
 
       </div>
       <!-- End of bottom part  -->
@@ -494,7 +466,7 @@
 <!-- Main content -->
 <content class="contentcontainer" style="width: 100%;">
     <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
-      <div class="contentpaddingleft" style="{{ page.contentLEFTStyleOverride }}">
+      <div class="contentpaddingleft" style="{{ page.contentpaddingleftStyleOverride }}">
       
 {% assign YEAR = page.date | date: "%Y" %}
 {% if YEAR != '0000' %}<div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
@@ -503,7 +475,7 @@
       
       <div class="contentpaddingleft" style="padding: 0px;">
 
-{{ page.contentLEFT }}
+{{ page.contentLeft }}
 
       </div> 
     </div>
@@ -511,7 +483,7 @@
       
 {{ page.beforeContent }}
       
-      <div class="contentpaddingright" style="{{ page.contentRIGHTStyleOverride }}">
+      <div {% if page.disableContentPadding != 'yes' %}class="contentpaddingright"{% endif %}>
 
 {{ content }}
 
