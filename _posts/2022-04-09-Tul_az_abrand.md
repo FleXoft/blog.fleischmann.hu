@@ -17,7 +17,7 @@ beforeContent: '<div style="position: relative; width: 100%; height: 0; padding-
 
 remark: 'vagy ez: fGefGUhqgpA'
 
-contentLEFTStyleOverride:  'padding: 15px; padding-bottom: 0px;'
+contentLEFTDateStyleOverride:  'padding: 15px; padding-bottom: 0px;'
 ---
 
 <center>

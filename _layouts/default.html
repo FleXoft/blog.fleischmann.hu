@@ -425,14 +425,14 @@
 
   <!-- Menubar -->
   <div style="width: 100%; white-space :nowrap; display: flex">
-    <div class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ menuLEFTStyleOverride }}">
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ page.menuLEFTStyleOverride }}">
       <div class="menupadding">
         
 {% if page.url == '/' %}blog.<a class="menu" href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a class="menu" href="/" title="Home" ><b>{{ site.title }}</b></a>{% endif %}
               
       </div>
     </div>
-    <div class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ menuRIGHTStyleOverride }}">
+    <div class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ page.menuRIGHTStyleOverride }}">
       <div class="menupadding">·
 
 <!-- Debug button -->
@@ -468,14 +468,14 @@
   <!-- Main header -->
   <div style="width: 100%; display: flex; 
     height: {{ page.headerSIZE }};">
-    <div class="leftside" style=" background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ menuMainLEFTStyleOverride }}">
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ page.menuMainLEFTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerLEFTStyleOverride }}">
 
 {{ page.headerLEFT }}
 
       </div>  
     </div>
-    <div class="rightside" style="position: relative; {{ menuMainRIGHTStyleOverride }}">
+    <div class="rightside" style="position: relative; {{ page.menuMainRIGHTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerRIGHTStyleOverride }}">
 
 {{ page.headerRIGHT }}
@@ -498,8 +498,8 @@
 
 <!-- Main content -->
 <content class="contentcontainer" style="width: 100%;">
-    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white; {{ contentLEFTStyleOverride }}">
-      <div class="contentpaddingleft" style="{{ page.contentLEFTStyleOverride }}">
+    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
+      <div class="contentpaddingleft" style="{{ page.contentLEFTDateStyleOverride }}">
       
 {% assign YEAR = page.date | date: "%Y" %}
 {% if YEAR != '0000' %}<div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
@@ -512,7 +512,7 @@
 
       </div> 
     </div>
-    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 ); {{ contentRIGHTStyleOverride }}">
+    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 ); {{ page.contentRIGHTStyleOverride }}">
       
 {{ page.beforeContent }}
       
