@@ -10,7 +10,7 @@ headerSIZE:       '0px'
 headerBGimagex:   ''
 headerBGposition: 'background-position: center;'
 
-contentLEFT: '<p style="padding: 15px; padding-top: 0px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
+contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
 ---
 
 There isn't a wireless mouse or trackpad connected. Why???

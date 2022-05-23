@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Balázsy Eszter, 1985.06.??.
+title:    Balázsy Eszter, 1986.06.??.
 author:   flex
 category: 1984...1988
 tags:     [about]

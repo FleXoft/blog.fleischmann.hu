@@ -9,7 +9,7 @@
 #  /_.___/_/\____/\__, (_)_/ /_/\___/_/____/\___/_/ /_/_/ /_/ /_/\__,_/_/ /_/_/ /_(_)_/ /_/\__,_/  
 #                /____/                                                                            
 # -----------------------------------------------------------------------------------------------------------
-
+#
 #
 # Jekyll based web page POC v2 on GitHub
 # 
@@ -17,13 +17,15 @@
 # ToDo:
 #
 #   képfeliratok a zenével együtt
-#   include dobozok készíítése az elemekhez (vonal, yotube, spoty, soundcloud)
+#   include dobozok készítése az elemekhez (vonal, youtube, spotify, soundcloud, ...)
 #   photo album berakás
 #   tag-ek kiírása
 #   https://docs.google.com/document/d/1mUCZY6DL-iUpC6CbNleBHk7vgsrAaknD2GcM3nUJLoM/edit
 #
 #
-# Rls: 2022.05.01.  
+# Rls:      2022.06.01.
+#
+# betaRls:  2022.05.01.
 #
 -->
 
@@ -31,7 +33,7 @@
 
 <head>
 
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
 
   <meta name="keywords" content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, sinclair, zx spectrum, psion, timex, perl, lcd, minolta, 9000, d7d, tsm, tivoli, ibm, tsm, tivoli storage manager, spectrum protect, gpfs, spectrum scale, osx, apple, ble" />
 
@@ -55,7 +57,7 @@
     gtag('config', 'G-8K57X3L40C');
   </script>
 
-  <style type="text/css">
+  <style type="text/css" />
     
     html {
 
@@ -103,12 +105,18 @@
     /* Debug */
     border: 0px solid;    
   }
+  
   div.rightbox {
     margin-left:   30px;
     margin-bottom: 0;
     margin-top:    0;
     padding:       0;
     float:         right;
+  }
+  
+  div.rightboxalignment {
+    width:      30%; 
+    margin-top: 35px;"
   }
 
   p {
@@ -417,15 +425,14 @@
 
   <!-- Menubar -->
   <div style="width: 100%; white-space :nowrap; display: flex">
-    <div class="leftside" style="
-      background: rgba( 0, 0, 0  , 0.85 ); color: white; text-align: center;">
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ menuLEFTStyleOverride }}">
       <div class="menupadding">
         
 {% if page.url == '/' %}blog.<a class="menu" href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a class="menu" href="/" title="Home" ><b>{{ site.title }}</b></a>{% endif %}
               
       </div>
-    </div><div class="rightside" style="
-      background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left;">
+    </div>
+    <div class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ menuRIGHTStyleOverride }}">
       <div class="menupadding">·
 
 <!-- Debug button -->
@@ -450,10 +457,9 @@
   }
 
 </script>
-<!--
+
 <button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid yellow' )">On</button> / 
 <button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
--->
 
       </div>
     </div> 
@@ -462,15 +468,14 @@
   <!-- Main header -->
   <div style="width: 100%; display: flex; 
     height: {{ page.headerSIZE }};">
-    <div class="leftside" style="
-      background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right;">
+    <div class="leftside" style=" background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ menuMainLEFTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerLEFTStyleOverride }}">
 
 {{ page.headerLEFT }}
 
       </div>  
     </div>
-    <div class="rightside" style="position: relative;">
+    <div class="rightside" style="position: relative; {{ menuMainRIGHTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerRIGHTStyleOverride }}">
 
 {{ page.headerRIGHT }}
@@ -493,7 +498,7 @@
 
 <!-- Main content -->
 <content class="contentcontainer" style="width: 100%;">
-    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white;">
+    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); color: white; {{ contentLEFTStyleOverride }}">
       <div class="contentpaddingleft" style="{{ page.contentLEFTStyleOverride }}">
       
 {% assign YEAR = page.date | date: "%Y" %}
@@ -507,7 +512,7 @@
 
       </div> 
     </div>
-    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 );">
+    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 ); {{ contentRIGHTStyleOverride }}">
       
 {{ page.beforeContent }}
       

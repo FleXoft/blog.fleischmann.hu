@@ -16,7 +16,7 @@ headerRIGHT:  '<div style="position: relative; width: 100%; height: 0; padding-b
 contentLEFT:   '<p style="padding: 15px; padding-top: 0px;"><img class="shadow" src="images/Everything_Everywhere_All_At Once_1.png"></p>'
 ---
 
-<div class="rightbox" style="width: 30%; margin-top: 30px;"><img class="shadow"  src="images/Everything_Everywhere_All_At Once_2.png"></div>
+<div class="rightbox rightboxalignment"><img class="shadow" src="images/Everything_Everywhere_All_At Once_2.png"></div>
 
 Nem is lehetne talán jobban összefoglalni:
 
