@@ -222,7 +222,9 @@
   }
 
   .contentrightside {
-    width: 80%;  
+    width: 80%;
+    margin: 0px;
+    display: inline-block;  
   }
 
   .contentpaddingleft {
@@ -236,7 +238,7 @@
   }
 
   .tableofcontents {
-    column-count:  2; 
+    column-count:  3; 
     column-gap:   50px; 
     column-rule:   2px solid lightgrey;
   }
@@ -458,7 +460,7 @@
 
 </script>
 
-<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid yellow' )">On</button> / 
+<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid red' )">On</button> / 
 <button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
 
       </div>
@@ -466,16 +468,19 @@
   </div>
   
   <!-- Main header -->
-  <div style="width: 100%; display: flex; 
-    height: {{ page.headerSIZE }};">
-    <div class="leftside" style="background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ page.menuMainLEFTStyleOverride }}">
+  <div style="width: 100%; display: flex; height: {{ page.headerSIZE }};">
+
+{% if page.disableheaderLEFT != true %}
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ page.headerMainLEFTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerLEFTStyleOverride }}">
 
 {{ page.headerLEFT }}
 
       </div>  
     </div>
-    <div class="rightside" style="position: relative; {{ page.menuMainRIGHTStyleOverride }}">
+{% endif %}
+
+    <div class="rightside" style="position: relative; {{ page.headerMainRIGHTStyleOverride }}">
       <div class="menupadding" style="{{ page.headerRIGHTStyleOverride }}">
 
 {{ page.headerRIGHT }}
@@ -496,33 +501,37 @@
 
 </header>
 
-<!-- Main content -->
-<content class="contentcontainer" style="width: 100%;">
-    <div class="contentleftside" style="float: left; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
+<!-- Content -->
+<div class="contentcontainer" style="width: 100%;">
+
+{% if page.disablecontentLEFT != true %}  
+    <div class="contentleftside" style="; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
       <div class="contentpaddingleft" style="{{ page.contentLEFTDateStyleOverride }}">
       
 {% assign YEAR = page.date | date: "%Y" %}
-{% if YEAR != '0000' %}<div align="" class="post-date"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
+{% if YEAR != '0000' %}<div align="" class="post-date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
 
       </div>
       
       <div class="contentpaddingleft" style="padding: 0px;">
-
 {{ page.contentLEFT }}
-
-      </div> 
+      </div>
+        
     </div>
-    <div class="contentrightside" style="float: left; background: rgba( 255, 255, 255, 1 ); {{ page.contentRIGHTStyleOverride }}">
+{% endif %}
+   
+    <div class="contentrightside" style="background: rgba( 255, 255, 255, 1 ); {{ page.contentRIGHTStyleOverride }}">
       
 {{ page.beforeContent }}
       
-      <div class="contentpaddingright" style="{{ page.contentRIGHTStyleOverride }}">
+      <div class="contentpaddingright" style="{{ page.contentpaddingRIGHTStyleOverride }}">
 
 {{ content }}
 
       </div>
+      
     </div>
-</content>
+</div>
 
 <!-- Footer -->
 <footer style="width: 100%;">

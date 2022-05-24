@@ -20,7 +20,9 @@ contentLEFTDateStyleOverride:  'padding: 0px;'
 contentLEFTStyleOverride: 'background: rgba( 211, 211, 211, 1 ); color: white;'
 
 disableContentTitle:  	   ''
-contentRIGHTStyleOverride: 'padding-bottom: 0px;'
+xdisablecontentLEFT: true
+xcontentRIGHTStyleOverride: 'width: 100%;'
+contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 ---
 
 <style type="text/css">
