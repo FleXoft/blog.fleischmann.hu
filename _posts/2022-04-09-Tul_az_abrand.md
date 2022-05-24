@@ -20,8 +20,7 @@ remark: 'vagy ez: fGefGUhqgpA'
 contentLEFTDateStyleOverride:  'padding: 15px; padding-bottom: 0px;'
 ---
 
-<center>
-<pre>
+<center><pre>
 Túl az ábránd mezsgyéjén
 Zúg egy folyó észak peremén
 Múltad rejtő hullámán
@@ -41,5 +40,4 @@ Túl az ábránd mezsgyéjén
 Lelsz egy anyát álmok szigetén
 Zúg az ősi hullámár
 A közös múlt ott bujkál tán...
-</pre>
-</center>
+</pre></center>

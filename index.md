@@ -15,23 +15,15 @@ headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display:
 
 contentLEFT: '<center style="background-color: lightgrey; padding-top: 55px;"><a href="https://twitter.com/FleXoft"><img style="width: 80%; margin-bottom: 3%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Twitter_2010_logo_-_from_Commons.svg/1024px-Twitter_2010_logo_-_from_Commons.svg.png"></a></center>
 <center style="background-color: lightgrey; padding: 20px;">
-<a class="twitter-timeline" href="https://twitter.com/FleXoft?ref_src=twsrc%5Etfw" data-tweet-limit="3" data-dnt="true" data-chrome="noheader nofooter noscrollbar noborders transparent" data-lang="en"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><center><i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i> <i class="icon-star-empty-1" style="color: red;"></i></center>'
-contentLEFTDateStyleOverride:  'padding: 0px;'
-contentLEFTStyleOverride: 'background: rgba( 211, 211, 211, 1 ); color: white;'
+<a class="twitter-timeline" href="https://twitter.com/FleXoft?ref_src=twsrc%5Etfw" data-tweet-limit="3" data-dnt="true" data-chrome="noheader nofooter noscrollbar noborders transparent" data-lang="en"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>'
+contentLEFTDateStyleOverride: 'padding: 0px;'
+contentLEFTStyleOverride:     'background: rgba( 211, 211, 211, 1 ); color: white;'
 
-disableContentTitle:  	   ''
+disableContentTitle: ''
 xdisablecontentLEFT: true
-xcontentRIGHTStyleOverride: 'width: 100%;'
+xcontentRIGHTStyleOverride:       'width: 100%;'
 contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 ---
-
-<style type="text/css">
-
-  li {
-	list-style-type: none;
-  }
-
-</style>
 
 {% if page.disableContentTitle != 'yes' %}<h1>{{ page.title }}</h1>{% endif %}
 
@@ -58,6 +50,8 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 {% endif %}
 {% endfor %}
 
+<hr style="border-top: 5px solid red;">
+
 <div style="width: 65%; margin: auto; padding: 30px; text-align: center;">
 
 {% assign tmptags = site.tags | sort %}
@@ -74,7 +68,7 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 
 </div>
 
-<p><div class="tableofcontents">
+<div class="tableofcontents">
 
 {% assign tmpcategories = site.categories %}
 {% for category in tmpcategories %}
@@ -82,7 +76,7 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 	{% capture category_name %}{{ category | first }}{% endcapture %}
 	<h2 style="margin: 0px">{{ category_name }}</h2>
 	<hr width="100%" style="margin: 0px">
-	<ul>
+	<ul style="list-style-type: none;">
 	{% assign site_list = site.categories[category_name] | sort:"date" %}
 	{% for post in site_list %}
 		<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
@@ -91,4 +85,4 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 	</div>
 {% endfor %}
 
-</div></p>
+</div>
