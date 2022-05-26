@@ -1,9 +1,9 @@
 ---
 layout:   post
-title:    Bölcsőde, óvoda
+title:    Születés, bölcsőde, óvoda
 author:   flex
 category: 1970...1976
-tags:     [life]
+tags:     [life, én, bölcsőde, óvoda]
 comments: true
 
 headerSIZE:       450px

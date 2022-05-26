@@ -3,12 +3,11 @@ layout:   post
 title:    Videójátékok
 author:   flex
 category: About
-tags:     [about]
+tags:     [about, számítástechnika, compúter, kompjúter, videójáték]
 comments: false
 
 headerSIZE:       570px
 headerBGimage:    'https://video-images.vice.com/articles/6259c2576032f900969ad342/lede/1650049778845-russiancruisermoskva.jpeg'
-headerBGimagesrc: 'https://www.vice.com/en/article/v7dkpx/a-piece-of-the-true-cross-may-have-sunk-with-russias-warship'
 headerBGposition: 'background-position: center;'
 headerLEFTtext:   '<h1>Start</h1>Valahol el kell kezdeni.'
 headerRIGHTtext:  '<h1>⬅</h1>'
