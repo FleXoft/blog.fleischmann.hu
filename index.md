@@ -9,7 +9,7 @@ comments: false
 headerSIZE:       670px
 headerBGimage:    'https://video-images.vice.com/articles/6259c2576032f900969ad342/lede/1650049778845-russiancruisermoskva.jpeg'
 headerBGposition: 'background-position: center;'
-headerLEFT:       '<h1>Start</h1>Valahol el kell kezdeni.'
+headerLEFT:       '<h1>Start</h1>Valahol el kell kezdeni és ez most itt lesz a tartalomjegyzéknél...'
 headerRIGHT:      '<h1>⬅</h1>'
 headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="https://www.vice.com/en/article/v7dkpx/a-piece-of-the-true-cross-may-have-sunk-with-russias-warship">"A Piece of the True Cross May Have Sunk with Russia’s Warship"</a></div></div>'
 
