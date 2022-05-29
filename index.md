@@ -79,7 +79,7 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 	<ul style="list-style-type: none;">
 	{% assign site_list = site.categories[category_name] | sort:"date" %}
 	{% for post in site_list %}
-		<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+		<li><a href="{{ site.baseurl }}{{ post.url }}">> {{post.title}}</a></li>
 	{% endfor %}
 	</ul>
 	</div>
