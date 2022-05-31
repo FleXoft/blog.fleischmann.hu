@@ -17,11 +17,67 @@ headerRIGHTbottom:  '<div style="background-color: white; padding: 0px; padding-
 
 disableContentTitle:   ''
 disableContentPadding: ''
-contentpaddingleftStyleOverride:  ''
+contentpaddingleftStyleOverride: ''
 
 contentLEFT:   '<p style="padding: 15px; padding-top: 0px;"><img class="shadow" src="images/Twin_Peaks.jpg"></p>'
 ---
 
-A Magyar Televízió (MTV) 1991. november 21. és 1992. június 9. között adta le az eredeti részeket.
+A Magyar Televízió (MTV) 1991. november 21. és 1992. június 9. között adta le az eredeti részeket. [^1]
 
-Nem emlékszem pontosan arra, hogyan keveredtem bele a sorozatba, de arra határozottan igen, hogy épp be volt kapcsolva egy TV otthon és a TV-n az első rész legeslegeljének fülbemászó érdekes zenéje azonnal elvarázsolt és abban a pillanatban odaragasztott a TV-hez és onnan már valahogy adta magát az egész.
+Nem emlékszem pontosan arra, hogyan keveredtem bele a sorozatba, nem volt ez egy tudatosan előretervezett döntés, de arra határozottan igen, hogy épp be volt kapcsolva a TV otthon és az első rész legeslegeljének fülbemászó érdekes zenéje és képei azonnal elvarázsoltak és abban a pillanatban odaragasztott a TV-hez és onnan már valahogy adta magát az egész, hogy ott maradtam ez egész rész idejére és az egész sorozatra is. Amikor nem tudtam élőben nézni, akkor az akkori kornak megfelelően természetesen valaki meg lett kérve, hogy vegye fel VHS-re. Az utolsó részről valahogy mégis lemaradtam és úgy kellett valakit keresni, aki felvette...
+
+Akkortájt kezdett elérhetővé válni az internet Magyarországon és így adta magát, hogy képeket keressünk és birtokoljunk a filmről, az akkor kezelhető / elérhető méretű felbontásokban. 
+
+Az én CD archívumomban ezek maradtak meg:
+
+<p><div id="twinpeaks" style="">
+
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/BW-LAURA.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/FWWM-CHA.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/MADDY-JA.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/THEWAITI.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-4.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-1.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-2.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-RM.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-1.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-2.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-3.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-4.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-SU.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-W.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS01.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS02.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS03.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS04.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS05.GIF" data-image="">
+
+</div></p>
+
+<script type="text/javascript"> 
+											   
+	jQuery( document ).ready( function() { jQuery( "#twinpeaks" ).unitegallery( {
+
+		tiles_space_between_cols:      10,
+		tiles_justified_space_between: 10,
+		//tiles_col_width:               500,
+		tile_enable_shadow:            true,
+			tile_shadow_h: 			   3,			//position of horizontal shadow
+			tile_shadow_v: 			   3,			//position of vertical shadow
+			tile_shadow_blur: 		   5,			//shadow blur
+			tile_shadow_spread: 	   2,			//shadow spread
+			tile_shadow_color: 		   "#2B2B2B",	//shadow color
+
+		theme_gallery_padding:         0,
+		tiles_type: 				   "justified",
+
+		gallery_width: 				   "100%",
+		tiles_exact_width: 			   false,
+
+		gallery_control_keyboard:      true,
+
+	} ) } );
+
+</script>
+
+[^1]: [Twin Peaks](https://hu.wikipedia.org/wiki/Twin_Peaks)
