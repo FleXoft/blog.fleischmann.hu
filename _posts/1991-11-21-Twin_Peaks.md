@@ -45,7 +45,6 @@ Az én CD archívumomban ezek maradtak meg:
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-3.GIF" data-image="images/TWINPEAKS/TP-S-3.GIF">
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-4.GIF" data-image="images/TWINPEAKS/TP-S-4.GIF">
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-SU.GIF" data-image="images/TWINPEAKS/TP-SU.GIF">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-W.GIF" data-image="images/TWINPEAKS/TP-W.GIF">
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS01.GIF" data-image="images/TWINPEAKS/TPEAKS01.GIF">
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS02.GIF" data-image="images/TWINPEAKS/TPEAKS02.GIF">
 	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS03.GIF" data-image="images/TWINPEAKS/TPEAKS03.GIF">
