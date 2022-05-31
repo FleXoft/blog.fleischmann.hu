@@ -32,25 +32,25 @@ Az én CD archívumomban ezek maradtak meg:
 
 <p><div id="twinpeaks" style="">
 
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/BW-LAURA.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/FWWM-CHA.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/MADDY-JA.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/THEWAITI.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-4.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-1.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-2.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-RM.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-1.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-2.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-3.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-4.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-SU.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-W.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS01.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS02.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS03.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS04.GIF" data-image="">
-	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS05.GIF" data-image="">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/BW-LAURA.GIF" data-image="images/TWINPEAKS/BW-LAURA.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/FWWM-CHA.GIF" data-image="images/TWINPEAKS/FWWM-CHA.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/MADDY-JA.GIF" data-image="images/TWINPEAKS/MADDY-JA.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/THEWAITI.GIF" data-image="images/TWINPEAKS/THEWAITI.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-4.GIF" data-image="images/TWINPEAKS/TP-4.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-1.GIF" data-image="images/TWINPEAKS/TP-C-1.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-C-2.GIF" data-image="images/TWINPEAKS/TP-C-2.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-RM.GIF" data-image="images/TWINPEAKS/TP-RM.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-1.GIF" data-image="images/TWINPEAKS/TP-S-1.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-2.GIF" data-image="images/TWINPEAKS/TP-S-2.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-3.GIF" data-image="images/TWINPEAKS/TP-S-3.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-S-4.GIF" data-image="images/TWINPEAKS/TP-S-4.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-SU.GIF" data-image="images/TWINPEAKS/TP-SU.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TP-W.GIF" data-image="images/TWINPEAKS/TP-W.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS01.GIF" data-image="images/TWINPEAKS/TPEAKS01.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS02.GIF" data-image="images/TWINPEAKS/TPEAKS02.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS03.GIF" data-image="images/TWINPEAKS/TPEAKS03.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS04.GIF" data-image="images/TWINPEAKS/TPEAKS04.GIF">
+	<img alt="Twin Peaks" data-description="Twin Peaks" src="images/TWINPEAKS/TPEAKS05.GIF" data-image="images/TWINPEAKS/TPEAKS05.GIF">
 
 </div></p>
 
