@@ -10,7 +10,7 @@ headerSIZE:       450px
 headerBGimage:    'https://upload.wikimedia.org/wikipedia/commons/5/51/Small_Red_Rose.JPG'
 headerBGposition: 'background-position: center;'
 
-headerMUZAX:      '<div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div><iframe style="margin-bottom: -9px" src="https://open.spotify.com/embed/track/6fMZJZqhauwGrwobkPZVJ7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>'
+headerRIGHTbottom: '<div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div><iframe style="margin-bottom: -9px" src="https://open.spotify.com/embed/track/6fMZJZqhauwGrwobkPZVJ7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>'
 ---
 
 <div class="rightbox" style="width: 45%; margin-top: 33px;"><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe class="shadow" style="position: absolute; width: 100%; height: 100%;" src="//fave.api.cnn.io/v1/fav/?video=fashion/2020/04/08/twin-peaks-remember-when-lon-orig.cnn&customer=cnn&edition=international&env=prod" frameborder="0"></iframe></div></div>
