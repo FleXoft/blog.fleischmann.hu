@@ -23,4 +23,6 @@ Mit kellene akkor most csinálni:
 - Linux
 - Vatera + eBay
 - macbook töltőkábel
+- doki: háziorvos
+- munkanélküli segély
 - 
