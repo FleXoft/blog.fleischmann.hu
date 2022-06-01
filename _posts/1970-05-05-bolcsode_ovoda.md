@@ -13,8 +13,6 @@ headerBGposition: 'background-position: center;'
 headerRIGHTbottom: '<div style="font-size: 50%; margin-bottom: 0px; float: right; background: black; color: white; padding: 5px;">Source: www.fleischmann.hu</div><iframe style="margin-bottom: -9px" src="https://open.spotify.com/embed/track/6fMZJZqhauwGrwobkPZVJ7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>'
 ---
 
-<div class="rightbox" style="width: 45%; margin-top: 33px;"><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe class="shadow" style="position: absolute; width: 100%; height: 100%;" src="//fave.api.cnn.io/v1/fav/?video=fashion/2020/04/08/twin-peaks-remember-when-lon-orig.cnn&customer=cnn&edition=international&env=prod" frameborder="0"></iframe></div></div>
-
 <span class="initial">N</span>agyon nehezem vettem rá magamat, hogy ezt a részt összeírjam - pedig nagyon régóta terveztem -, de ahogy most már szépen látszik, lassan azért csak-csak összeszedtem végül magamat és egyeben azokat a dolgokat is, amiket itt meg terveztem osztani. Furcsa, de talán nem elítélendő módon első körben csakis önmagammal. 😀
 
 Ha ne adja isten, hogy valaki más is valahogy mégis idekeveredne, beleolvasna és esetleg még ezek után lenne bármi hozzászólása vagy akár heJesírási javaslata, akkor azt persze bátran tegye majd meg a lap legeslegalján!

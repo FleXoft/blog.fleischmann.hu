@@ -24,6 +24,8 @@ contentLEFT:   '<p style="padding: 15px; padding-top: 0px;"><img class="shadow" 
 
 A Magyar Televízió (MTV) 1991. november 21. és 1992. június 9. között adta le az eredeti részeket. [^1]
 
+<div class="rightbox rightboxalignment" style="width: 45%; margin-top: 35px;"><div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe class="shadow" style="position: absolute; width: 100%; height: 100%;" src="//fave.api.cnn.io/v1/fav/?video=fashion/2020/04/08/twin-peaks-remember-when-lon-orig.cnn&customer=cnn&edition=international&env=prod" frameborder="0"></iframe></div></div>
+
 Nem emlékszem pontosan arra, hogyan keveredtem bele a sorozatba, nem volt ez egy tudatosan előretervezett döntés, de arra határozottan igen, hogy épp be volt kapcsolva a TV otthon és az első rész legeslegelejének fülbemászó érdekes zenéje és képei azonnal elvarázsoltak és abban a pillanatban odaragasztott a TV-hez és onnan már valahogy adta magát az egész, hogy ott maradtam ez egész rész idejére és az egész sorozatra is. Amikor nem tudtam élőben nézni, akkor az akkori kornak megfelelően természetesen valaki meg lett kérve, hogy vegye fel VHS-re. Az utolsó részről valahogy mégis lemaradtam és úgy kellett valakit keresni, aki felvette...
 
 Akkortájt kezdett elérhetővé válni az internet Magyarországon és így adta magát, hogy képeket keressünk és birtokoljunk a filmről, az akkor kezelhető / elérhető méretű felbontásokban. 
