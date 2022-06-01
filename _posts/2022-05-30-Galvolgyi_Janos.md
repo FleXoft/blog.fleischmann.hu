@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Gálvölgyi János hvg.hu
+title:    Gálvölgyi János - hvg.hu
 author:   flex
 category: 2022
 tags:     [flex, élet]

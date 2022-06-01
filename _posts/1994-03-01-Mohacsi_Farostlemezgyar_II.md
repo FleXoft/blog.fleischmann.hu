@@ -3,7 +3,7 @@ layout:   post
 title:    Mohácsi Farostlemezgyár II.
 author:   flex
 category: 1994...1997
-tags:     [about]
+tags:     [about, munkahely]
 comments: false
 
 headerSIZE:       570px
