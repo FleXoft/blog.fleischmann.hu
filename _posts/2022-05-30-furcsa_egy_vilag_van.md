@@ -25,4 +25,7 @@ Mit kellene akkor most csinálni:
 - macbook töltőkábel
 - doki: háziorvos
 - munkanélküli segély
+- Monterey update
+- NAS 7 update
+- közös doksi update
 - 
