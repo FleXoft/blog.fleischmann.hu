@@ -22,10 +22,14 @@ Mit kellene akkor most csinálni:
 - blog.fleischmann.hu folytatása
 - Linux
 - Vatera + eBay
-- macbook töltőkábel
+- Macbook töltőkábel
 - doki: háziorvos
 - munkanélküli segély
 - Monterey update
 - NAS 7 update
 - közös doksi update
+- node.js oktatás
+- Swift oktatás
+- SwiftUI oktatás
+- FinalCUT oktatás
 - 
