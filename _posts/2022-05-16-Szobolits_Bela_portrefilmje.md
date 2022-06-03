@@ -2,7 +2,7 @@
 layout:   post
 title:    Szobolits Béla portréfilmje
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [flex, élet]
 comments: false
 

@@ -2,7 +2,7 @@
 layout:   post
 title:    'Jégvarázs 2: Túl az ábránd mezsgyéjén'
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [flex, élet, András]
 comments: false
 
@@ -41,3 +41,5 @@ Lelsz egy anyát álmok szigetén
 Zúg az ősi hullámár
 A közös múlt ott bujkál tán...
 </pre></center>
+
+Érdekes, hogy mennyire megszerette ezt a két mesét.

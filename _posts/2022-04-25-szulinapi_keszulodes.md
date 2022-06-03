@@ -2,7 +2,7 @@
 layout:   post
 title:    Szülinapi ebéd szerveződés, 04.25.
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [life]
 comments: false
 

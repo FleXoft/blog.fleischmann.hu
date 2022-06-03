@@ -13,7 +13,7 @@ headerLEFT:       '<h1>Start</h1>Valahol el kell kezdeni és ez most itt lesz a 
 headerRIGHT:      '<h1>⬅</h1>'
 headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="https://www.vice.com/en/article/v7dkpx/a-piece-of-the-true-cross-may-have-sunk-with-russias-warship">"A Piece of the True Cross May Have Sunk with Russia’s Warship"</a></div></div>'
 
-contentLEFT: '<center style="background-color: lightgrey; padding-top: 55px;"><a href="https://twitter.com/FleXoft"><img style="width: 80%; margin-bottom: 3%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Twitter_2010_logo_-_from_Commons.svg/1024px-Twitter_2010_logo_-_from_Commons.svg.png"></a></center>
+contentLEFT: '<center style="background-color: lightgrey; padding-top: 30px;"><a href="https://twitter.com/FleXoft"><img style="width: 80%; margin-bottom: 3%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Twitter_2010_logo_-_from_Commons.svg/1024px-Twitter_2010_logo_-_from_Commons.svg.png"></a></center>
 <center style="background-color: lightgrey; padding: 20px;">
 <a class="twitter-timeline" href="https://twitter.com/FleXoft?ref_src=twsrc%5Etfw" data-tweet-limit="5" data-dnt="true" data-chrome="noheader nofooter noscrollbar noborders transparent" data-lang="en"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>'
 contentLEFTDateStyleOverride: 'padding: 0px;'

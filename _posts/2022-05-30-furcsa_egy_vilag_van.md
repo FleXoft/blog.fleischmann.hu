@@ -2,7 +2,7 @@
 layout:   post
 title:    Furcsa egy világ van na...
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [flex, élet, fnxs]
 comments: false
 
@@ -14,15 +14,15 @@ xbeforeContent:	  '<div style="position: relative; width: 100%; height: 0; paddi
 <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ec6_rZ6llI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 ---
 
-Ma közös megegyezéssel és június 30-ai dátummal elválltunk egymástól. A kiváltó ok, hogy nem akartam már a GF-nak oktatni. A notebook-ot megvehettem, a kocsit vissza kell majd adni a Horvátországi családi nyaralás után. Hát ez van mára. Le kell nyugodni és menni kell majd tovább valamikor!
+Ma közös megegyezéssel és június 30-ai dátummal elváltunk egymástól. A kiváltó ok, hogy nem akartam már a GF-nak oktatni. Ezt május 12-én délelőtt jelentetem be. A notebook-ot megvehettem, a kocsit vissza kell majd természetesen adni, de még elmehetünk a családi Horvátországi nyaralásra vele. Hát ez van mára. Le kell nyugodni most már és menni kell majd tovább!
 
-Mit kellene akkor most csinálni:
+Mit kellene akkor most csinálni a következő 1 évben:
 - futás és biciklizés
 - fotók feldolgozása
-- blog.fleischmann.hu folytatása
+- blog.fleischmann.hu folytatása képek, levelek, 8mm, VHS, ...
 - Linux
 - Vatera + eBay
-- Macbook töltőkábel
+- MacBook töltőkábel
 - doki: háziorvos
 - munkanélküli segély
 - Monterey update
@@ -32,4 +32,8 @@ Mit kellene akkor most csinálni:
 - Swift oktatás
 - SwiftUI oktatás
 - FinalCUT oktatás
+- zenék rendbetétele
+- NAS-on privát dolgok rendbetétel
+- közös doksi bővítése
+- pmail, pegasus mail
 - 

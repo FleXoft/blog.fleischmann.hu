@@ -2,7 +2,7 @@
 layout:   post
 title:    Everything Everywhere All At Once (Minden, mindenhol, mindenkor)
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [flex, élet, goodbye]
 comments: false
 

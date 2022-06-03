@@ -1,8 +1,8 @@
 ---
 layout:   post
-title:    Apple MacBook Pro 2019
+title:    Apple MacBook Pro 2019 16"
 author:   flex
-category: 2022
+category: 2020...2022
 tags:     [flex, élet, bicikli]
 comments: false
 
@@ -14,5 +14,7 @@ contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver
 ---
 
 There isn't a wireless mouse or trackpad connected. Why???
+
+Én nem is értem, hogyan történhet ilyen a számítógéppel, nemhogy egy ilyen drága, prémium kategóriás géppel!!!
 
 <img src="images/Screenshot_2022-05-21_at_19.05.16.png">
