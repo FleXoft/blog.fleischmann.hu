@@ -22,16 +22,15 @@ Most azt gondolom, hogy a mi szempontunkból / vagy az én szemszögemből és h
 
 Mit kellene akkor most csinálni a következő 1 évben:
 - futás és biciklizés
-- fotók feldolgozása
+- fotók feldolgozása (Apuka, Ungvár, mohácsi ruhásszekrény, )
 - blog.fleischmann.hu folytatása képek, levelek, 8mm, VHS, ..., syntaxhighlight, 
-- Linux
+- Linux ansible
 - Vatera + eBay
 - Apple MacBook töltőkábel garancia
-- doki: háziorvos
+- doki: háziorvos, 
 - munkanélküli segély
 - Monterey update
 - NAS 7 update
-- közös doksi update
 - node.js oktatás
 - Swift oktatás
 - SwiftUI oktatás
