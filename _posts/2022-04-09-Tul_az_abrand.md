@@ -42,4 +42,6 @@ Zúg az ősi hullámár
 A közös múlt ott bujkál tán...
 </pre></center>
 
+<hr>
+
 Érdekes, hogy mennyire megszerette ezt a két mesét.
