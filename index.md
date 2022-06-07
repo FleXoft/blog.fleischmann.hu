@@ -25,8 +25,6 @@ xcontentRIGHTStyleOverride:       'width: 100%;'
 contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 ---
 
-{% if page.disableContentTitle != 'yes' %}<h1>{{ page.title }}</h1>{% endif %}
-
 {% assign rawtags = "" %}
 {% for post in site.posts %}
 {% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -49,6 +47,10 @@ contentpaddingRIGHTStyleOverride: 'padding-bottom: 0px;'
 {% endunless %}
 {% endif %}
 {% endfor %}
+
+<hr style="border-top: 5px solid red;">
+
+{% if page.disableContentTitle != true %}<h1>{{ page.title }}</h1>{% endif %}
 
 <hr style="border-top: 5px solid red;">
 
