@@ -21,7 +21,9 @@ Ma közös megegyezéssel és június 30-ai dátummal elváltunk egymástól. A 
 Most azt gondolom, hogy a mi szempontunkból / vagy az én szemszögemből és ha lehet ilyet mondani, akkor talán a legjobbkor történt ez. Hajni lehet új munkahelyre megy újra dolgozni, én pedig tudok egyéb más dolgaimmal is foglalkozni.
 
 Mit kellene akkor most csinálni a következő 1 évben:
-- halászcsárda
+- régi levelek rendbetétel gMail
+- Google Workspace rendbetétele
+- halászcsárda Rvécsárda
 - futás és biciklizés
 - fotók feldolgozása (Apuka, Ungvár, mohácsi ruhásszekrény, )
 - blog.fleischmann.hu folytatása képek, levelek, 8mm, VHS, ..., syntaxhighlight, 

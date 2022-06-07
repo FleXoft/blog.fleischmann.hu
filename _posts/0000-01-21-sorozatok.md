@@ -3,7 +3,7 @@ layout:   post
 title:    Sorozatok
 author:   flex
 category: About
-tags:     [about, sorozatok]
+tags:     [about, flex, sorozatok]
 comments: false
 
 headerSIZE:       570px

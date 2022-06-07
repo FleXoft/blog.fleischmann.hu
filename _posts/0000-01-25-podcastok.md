@@ -3,7 +3,7 @@ layout:   post
 title:    Podcastok
 author:   flex
 category: About
-tags:     [about, podcast]
+tags:     [about, flex, podcast]
 comments: false
 
 headerSIZE:       100px

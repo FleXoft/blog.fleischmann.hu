@@ -3,7 +3,7 @@ layout: post
 title:  Jekyll test page 
 category: Test / teszt
 comments: false
-tags: [web, jekyll, github]
+tags: [web, jekyll, github, test]
 ---
 
 <!-- break -->

@@ -3,7 +3,7 @@ layout:   post
 title:    Programok, alkalmazások, számitógépezés
 author:   flex
 category: About
-tags:     [about, programok, alkalmazások, számítástechnika, compúter, kompjúter]
+tags:     [about, compúter, kompjúter, programok]
 comments: false
 
 headerSIZE:       ''
@@ -14,6 +14,10 @@ xheaderMainRIGHTStyleOverride: 'width: 100%;'
 headerMainRIGHTStyleOverride: 'background: rgba( 0, 0, 0, 1 );'
 headerRIGHT:  '<div style="width: 100%; "><img style="-webkit-filter: invert(1); filter: invert(1);" src="images/logo/Sinclair.logo.png"></div>'
 xdisableheaderLEFT: true
+
+headerMainLEFTStyleOverride : 'display: flex;'
+headerLEFTStyleOverride : 'width: 100%; padding: 1rem;'
+headerLEFT: '<div style="height: 100%; width: 25%; float: left; background-color: #ff0002;"></div><div style="height: 100%; width: 25%; float: left; background-color: #fdff00;"></div><div style="height: 100%; width: 25%; float: left; background-color: #00ff03;"></div><div style="height: 100%; width: 25%; float: left; background-color: #01fffe;"></div>'
 ---
 
 Mostanában messze a legnagyobb szórakozást a [Github](https://github.com/) és annak a környezete jelenti még úgy is, hogy a most elérhető funkciókból csak nagyon keveset használok és még úgy is2, hogy 2012-ben a Microsoft megvette az egész vállalatot.
