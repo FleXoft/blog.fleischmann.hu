@@ -35,7 +35,8 @@ contentRIGHTStyleOverride: 'padding-bottom: 0px;'
 {% if page.disableContentTitle != true %}<h1>{{ page.title }}</h1>{% endif %}
 <hr style="border-top: 5px solid red;">
 
-<p><div class="tableofcontents">
+<p></p>
+<div class="tableofcontents">
 
 {% assign rawtags = "" %}
 {% for post in site.posts %}
@@ -77,4 +78,4 @@ contentRIGHTStyleOverride: 'padding-bottom: 0px;'
 
 {% endfor %}
 
-</div></p>
+</div>
