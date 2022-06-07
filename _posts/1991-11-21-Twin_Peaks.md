@@ -3,7 +3,7 @@ layout:   post
 title:    Twin Peaks
 author:   flex
 category: 1991...1993
-tags:     [TV sorozatok]
+tags:     [sorozatok]
 comments: false
 
 headerSIZE:       670px
