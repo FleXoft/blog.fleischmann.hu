@@ -3,7 +3,7 @@ layout:   post
 title:    Balázsy Eszter, 1986.06.??.
 author:   flex
 category: 1984...1988
-tags:     [about]
+tags:     [about, szerelem, Eszter]
 comments: false
 
 headerSIZE:       570px

@@ -3,7 +3,7 @@ layout:   post
 title:    Szilveszter, Csehszlovákia, Trencsén
 author:   flex
 category: 1991...1993
-tags:     [élet, hajnalka, szerelem2]
+tags:     [élet, Hajnalka, szerelem]
 comments: false
 
 headerSIZE:       100px
