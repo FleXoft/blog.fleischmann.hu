@@ -17,7 +17,7 @@ disableContentTitle:   true
 beforeContent:          ''
 ---
 
-# Moldova György: Az eltörött csavar [^1]
+# Moldova György: Az eltörött csavar [^1] [^2]
 
 Ezen az estén ismét H. Kovács mesélt.
 
@@ -62,3 +62,4 @@ De a televízió kisebb károsodása nem zavarta meg az avatóünnepség fényé
 Kovács 113 Béla pedig, aki mindezt látta a lezárt sorompó mellől, levágott egy falatot az avas szalonnából, melyet a felesége még a múlt héten csomagolt be neki, és jóízűen elsomolyodott.
 
 [^1]: [Az eltörött csavar](https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00256a/moldova00263/moldova00263.html)
+[^2]: [Uj Péter: Az idegen bajnok](https://444.hu/2022/06/09/uj-peter-az-idegen-bajnok)
