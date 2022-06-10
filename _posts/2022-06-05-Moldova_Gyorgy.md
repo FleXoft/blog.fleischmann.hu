@@ -3,7 +3,7 @@ layout:   post
 title:    Moldova György
 author:   flex
 category: 2022
-tags:     [RIP]
+tags:     [RIP, tl;dr]
 comments: false
 
 headerSIZE:       750px
@@ -17,7 +17,7 @@ disableContentTitle:   true
 beforeContent:          ''
 ---
 
-# Moldova György: Az eltörött csavar [^1] [^2]
+# Moldova György: Az eltörött csavar [^1], [^2]
 
 Ezen az estén ismét H. Kovács mesélt.
 
