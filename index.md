@@ -80,7 +80,7 @@ Nem biztos, hogy teljesen jó ötlet ez a [#hashtag](/tags)-elés, de egyelőre 
 	{% capture category_name %}{{ category | first }}{% endcapture %}
 	<h2 style="margin: 0px">{{ category_name }}</h2>
 	<hr width="100%" style="margin: 0px">
-	<ul style="list-style-type: none;">
+	<ul style="list-style-type: none; margin-top: 0; margin-bottom: 1rem;">
 	{% assign site_list = site.categories[category_name] | sort:"date" %}
 	{% for post in site_list %}
 		<li><a href="{{ site.baseurl }}{{ post.url }}">> {{post.title}}</a></li>
