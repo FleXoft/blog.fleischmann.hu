@@ -17,7 +17,7 @@ disableContentTitle:   true
 beforeContent:          ''
 ---
 
-# Moldova György: Az eltörött csavar [^1], [^2]
+# Moldova György: Az eltörött csavar [^1]<sup class="footnote">, </sup>[^2]
 
 Ezen az estén ismét H. Kovács mesélt.
 
