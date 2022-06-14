@@ -2,7 +2,7 @@
 layout:   post
 title:    Apple from Catalina to Monterey upgrade
 author:   flex
-category: 2020...2022
+category: 2022
 tags:     [compúter, Apple, Catalina, Monterey, English]
 comments: false
 
