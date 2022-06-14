@@ -3,7 +3,7 @@ layout:   post
 title:    Synology DSM 7 upgrade
 author:   flex
 category: 2022
-tags:     [compúter, Synology, NAS, DSM7, english]
+tags:     [compúter, Synology, NAS, DSM7, English]
 comments: false
 
 headerSIZE:       '0px'
@@ -26,7 +26,7 @@ This morning, taking a deep breath, I pressed the button for this task a little 
 
 <hr>
 
-## Checklist:
+## Checklist after the upgrade process:
 
 - VPN CHECK: ✅
 - VirtualHere + hack reINSTALL + CHECK: ✅

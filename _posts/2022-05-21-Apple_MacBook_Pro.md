@@ -3,7 +3,7 @@ layout:   post
 title:    Apple MacBook Pro 2019 16"
 author:   flex
 category: 2020...2022
-tags:     [flex, élet, bicikli]
+tags:     [Apple, MacBook Pro]
 comments: false
 
 headerSIZE:       '0px'

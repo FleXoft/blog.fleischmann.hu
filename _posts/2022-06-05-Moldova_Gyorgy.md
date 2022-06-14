@@ -19,7 +19,7 @@ beforeContent:          ''
 
 # Moldova György: Az eltörött csavar [^1]<sup class="footnote">, </sup>[^2]
 
-Ezen az estén ismét H. Kovács mesélt.
+"Ezen az estén ismét H. Kovács mesélt.
 
 Ha a Fradi-ifi Angyalföldön vagy Újpesten játszik, a 77-es busszal szoktam kimenni a meccsre. Aki ismeri ezt a járatot, tudja, hogy félúton, a Városligetnél egy sorompó zárja le, a Hosszú Türelem Sorompója, mert bizony előfordul, hogy félórákat kell várni, amíg a sorompót felengedik. Ezt én már be is számítom, azon a szombaton is délre írták ki a meccset, de én már reggeli után fogtam egy jó könyvet, és elindultam.
 
@@ -59,7 +59,7 @@ Nem maradt más hátra, mint új utat építeni. Országos tervpályázatot írt
 
 De a televízió kisebb károsodása nem zavarta meg az avatóünnepség fényét. Nagyon jól mutattak a matyóföldi, hímzett bádogból készült rakéták, melyeket egy ismert szürrealista iparművész ábrái díszítettek. De a harmadik kilövésnél kiderült, hogy a kilövőszerkezet motorjában eltört egy csavar, melyet, sajnos, hiába kerestek a Kisrakéta Közlekedési Vállalat raktárában. Ezt a csavart ugyanis Angliában gyártják, de mivel ott áttértek a bioelektromos árammal hajtott rakétára, mely úgy működik, hogy az utas kétszer belelehel a motorra szerelt bőrzacskóba, a gyár megszűnt, az utolsó csavart nekünk adták el pulykákért.
 
-Kovács 113 Béla pedig, aki mindezt látta a lezárt sorompó mellől, levágott egy falatot az avas szalonnából, melyet a felesége még a múlt héten csomagolt be neki, és jóízűen elsomolyodott.
+Kovács 113 Béla pedig, aki mindezt látta a lezárt sorompó mellől, levágott egy falatot az avas szalonnából, melyet a felesége még a múlt héten csomagolt be neki, és jóízűen elsomolyodott."
 
 [^1]: [Az eltörött csavar](https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00256a/moldova00263/moldova00263.html)
 [^2]: [Uj Péter: Az idegen bajnok](https://444.hu/2022/06/09/uj-peter-az-idegen-bajnok)

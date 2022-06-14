@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Prehistoric planet
+title:    Prehistoric Planet
 author:   flex
 category: 2020...2022
 tags:     [tvsorozat]
