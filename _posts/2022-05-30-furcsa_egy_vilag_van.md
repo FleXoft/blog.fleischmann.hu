@@ -33,7 +33,7 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - doki: háziorvos, 
 - munkanélküli segély
 - Monterey update
-- NAS 7 update
+- NAS 7 update ✅
 - node.js oktatás
 - Swift oktatás
 - SwiftUI oktatás
@@ -48,4 +48,5 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - pico8 oktatások
 - parallel parancs
 - zsh 
-- Github actions 
+- Github actions
+- ✅
