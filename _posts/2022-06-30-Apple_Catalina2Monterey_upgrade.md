@@ -33,7 +33,7 @@ drivefs        466Gi  431Gi   34Gi    93% 18446744069414584742 4294967295 438164
 07:15:08 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
 </pre>
 
-<img src="images/Screenshot_2022-06-15_at_7.14.52.png">
+<img src="images/Apple_MBP16_macOS_Catalina.png">
 
 <hr>
 

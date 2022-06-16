@@ -17,4 +17,4 @@ There isn't a wireless mouse or trackpad connected. Why???
 
 Én nem is értem, hogyan történhet ilyen a számítógéppel, nemhogy egy ilyen drága, prémium kategóriás géppel!!!
 
-<img src="images/Screenshot_2022-05-21_at_19.05.16.png">
+<img src="images/Apple_MBP16_macOS_Bluetooth.png">
