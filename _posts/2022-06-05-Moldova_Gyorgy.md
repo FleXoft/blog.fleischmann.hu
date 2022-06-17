@@ -14,6 +14,8 @@ headerRIGHTtext:  ''
 
 disableContentTitle:   true
 
+contentLEFT: '<p style="padding: 20px;"><a href="https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00447a/moldova00447a_o/moldova00447a_o.html"><img src="images/Moldova_Gyorgy-A-beszelo-diszno.jpg"></a></p>'
+
 beforeContent:          ''
 ---
 
