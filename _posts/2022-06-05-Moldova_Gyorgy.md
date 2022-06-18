@@ -2,7 +2,7 @@
 layout:   post
 title:    Moldova György
 author:   flex
-category: 2022
+category: 2020...2022 (FNXS)
 tags:     [RIP, tl;dr]
 comments: false
 
@@ -12,14 +12,16 @@ headerBGposition: 'background-position: top;'
 headerLEFT:       '<h1>R.I.P.</h1>'
 headerRIGHTtext:  ''
 
-disableContentTitle:   true
-
 contentLEFT: '<p style="padding: 20px;"><a href="https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00447a/moldova00447a_o/moldova00447a_o.html"><img src="images/Moldova_Gyorgy-A-beszelo-diszno.jpg"></a></p>'
 
 beforeContent:          ''
+
+disableContentTitle:   true
 ---
 
-# Moldova György: Az eltörött csavar [^1]<sup class="footnote">, </sup>[^2]
+# Moldova György [^1]
+
+## Az eltörött csavar [^2]
 
 "Ezen az estén ismét H. Kovács mesélt.
 
@@ -63,5 +65,5 @@ De a televízió kisebb károsodása nem zavarta meg az avatóünnepség fényé
 
 Kovács 113 Béla pedig, aki mindezt látta a lezárt sorompó mellől, levágott egy falatot az avas szalonnából, melyet a felesége még a múlt héten csomagolt be neki, és jóízűen elsomolyodott."
 
-[^1]: [Az eltörött csavar](https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00256a/moldova00263/moldova00263.html)
-[^2]: [Uj Péter: Az idegen bajnok](https://444.hu/2022/06/09/uj-peter-az-idegen-bajnok)
+[^1]: [Uj Péter: Az idegen bajnok](https://444.hu/2022/06/09/uj-peter-az-idegen-bajnok)
+[^2]: [Az eltörött csavar](https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00256a/moldova00263/moldova00263.html)

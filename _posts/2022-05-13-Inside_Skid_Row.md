@@ -2,7 +2,7 @@
 layout:   post
 title:    "Inside Skid Row America's homelessness capital"
 author:   flex
-category: 'Videók'
+category: 2020...2022 (FNXS)
 tags:     [video]
 comments: false
 

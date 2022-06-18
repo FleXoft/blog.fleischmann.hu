@@ -2,7 +2,7 @@
 layout:   post
 title:    Balázsy Eszter, 1986.06.??.
 author:   flex
-category: 1984...1988
+category: 1984...1988 (Gimnázium)
 tags:     [about, szerelem, Eszter]
 comments: false
 

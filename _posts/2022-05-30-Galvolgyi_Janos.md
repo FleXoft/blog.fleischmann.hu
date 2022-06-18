@@ -2,7 +2,7 @@
 layout:   post
 title:    Gálvölgyi János - hvg.hu
 author:   flex
-category: 2020...2022
+category: 2020...2022 (FNXS)
 tags:     [flex, élet]
 comments: false
 

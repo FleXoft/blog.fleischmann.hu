@@ -2,7 +2,7 @@
 layout:   post
 title:    Romhányi Hajnalka, 1992.06.04. ... 2022.06.04. 
 author:   flex
-category: 2022
+category: 2020...2022 (FNXS)
 tags:     [about, szerelem, Hajnalka]
 comments: false
 

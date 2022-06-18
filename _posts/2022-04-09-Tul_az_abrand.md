@@ -2,7 +2,7 @@
 layout:   post
 title:    'Jégvarázs 2: Túl az ábránd mezsgyéjén'
 author:   flex
-category: 2020...2022
+category: 2020...2022 (FNXS)
 tags:     [flex, élet, András]
 comments: false
 

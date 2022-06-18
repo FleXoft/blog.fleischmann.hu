@@ -63,7 +63,7 @@ Nem biztos, hogy teljesen jó ötlet ez a [#hashtag](/tags)-elés, de egyelőre 
 	{% assign fontsize = 225 %}
 	{% assign boldfont = "font-weight: bold;" %}
 {% endif %}
-  <a href="tags#{{ tag | first | slugify }}" style="font-size: {{ fontsize }}%; {{ boldfont }}">{{ tag[0] }}{% if tag.last.size > 1 %}({{ tag | last | size }})
+  <a href="tags#{{ tag | first }}" style="font-size: {{ fontsize }}%; {{ boldfont }}">{{ tag[0] }}{% if tag.last.size > 1 %}({{ tag | last | size }})
 {% endif %}
   </a>
 {% endfor %}

@@ -2,7 +2,7 @@
 layout:   post
 title:    Mohácsi Farostlemezgyár II.
 author:   flex
-category: 1994...1997
+category: 1994...1997 (MOFA II.)
 tags:     [about, munkahely]
 comments: false
 

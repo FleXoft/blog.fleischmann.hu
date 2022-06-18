@@ -2,7 +2,7 @@
 layout:   post
 title:    Prehistoric Planet
 author:   flex
-category: 2020...2022
+category: 2020...2022 (FNXS)
 tags:     [tvsorozat]
 comments: false
 

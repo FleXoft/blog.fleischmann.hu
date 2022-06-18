@@ -2,7 +2,7 @@
 layout:   post
 title:    Kötelező katonai szolgálat, Szentendre, Baja
 author:   flex
-category: 1993...1994
+category: 1993...1994 (katonaság)
 tags:     [about]
 comments: false
 

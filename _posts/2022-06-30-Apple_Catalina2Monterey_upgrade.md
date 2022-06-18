@@ -17,8 +17,6 @@ Knowing that I'm going to lose my current daily job, the next thing I planed to 
 
 ## Starting point
 
-Here's how it happened:
-
 <pre class="terminal">
 07:13:18 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
 $ <strong>df -h</strong>
@@ -36,6 +34,10 @@ drivefs        466Gi  431Gi   34Gi    93% 18446744069414584742 4294967295 438164
 <img src="images/Apple_MBP16_macOS_Catalina.png">
 
 <hr>
+
+Here's how it happened:
+
+
 
 ## Checklist after the upgrade process:
 

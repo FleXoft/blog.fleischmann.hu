@@ -2,7 +2,7 @@
 layout:   post
 title:    Gépipari és Automatizálási Műszaki Főiskola, G.A.M.F., Kecskemét
 author:   flex
-category: 1988...1991
+category: 1988...1991 (GAMF)
 tags:     [about]
 comments: false
 

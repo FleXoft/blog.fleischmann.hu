@@ -2,7 +2,7 @@
 layout:   post
 title:    Synology DSM 7 upgrade
 author:   flex
-category: 2022
+category: 2020...2022 (FNXS)
 tags:     [compúter, Synology, NAS, DSM7, English]
 comments: false
 

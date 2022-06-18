@@ -2,7 +2,7 @@
 layout:   post
 title:    Együttérzés / compassion
 author:   flex
-category: 2022
+category: 2020...2022 (FNXS)
 tags:     [flex, élet, bölcsesség]
 comments: false
 

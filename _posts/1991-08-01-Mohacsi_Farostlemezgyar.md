@@ -2,7 +2,7 @@
 layout:   post
 title:    Mohácsi Farostlemezgyár I.
 author:   flex
-category: 1991...1993
+category: 1991...1993 (MOFA I.)
 tags:     [about, munkahely]
 comments: false
 

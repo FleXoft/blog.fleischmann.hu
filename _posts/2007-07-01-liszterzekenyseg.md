@@ -2,7 +2,7 @@
 layout:   post
 title:    Lisztérzékenység vagy inkább gluténérzékenység / coeliakia
 author:   flex
-category: 2004...2014
+category: 2004...2014 (USER)
 tags:     [about, Anna]
 comments: false
 
