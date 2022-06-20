@@ -19,34 +19,3 @@ headerRIGHTbottom:  '<div style=""><iframe style="border-radius:0px; margin-bott
 Ma közös megegyezéssel és június 30-ai dátummal elváltunk egymástól. A kiváltó ok, hogy nem akartam már a GF-nak oktatni. Ezt május 12-én délelőtt jelentetem be. A notebook-ot megvehettem, a kocsit vissza kell majd természetesen adni, de még elmehetünk a családi Horvátországi nyaralásra vele. Hát ez van mára. Le kell nyugodni most már és menni kell majd tovább!
 
 Most azt gondolom, hogy a mi szempontunkból / vagy az én szemszögemből és ha lehet ilyet mondani, akkor talán a legjobbkor történt ez. Hajni lehet új munkahelyre megy újra dolgozni, én pedig tudok egyéb más dolgaimmal is foglalkozni.
-
-Mit kellene akkor most csinálni a következő 1 évben:
-- régi levelek rendbetétel gMail
-- Google Workspace rendbetétele
-- halászcsárda Rvécsárda
-- futás és biciklizés
-- fotók feldolgozása (Apuka, Ungvár, mohácsi ruhásszekrény, )
-- blog.fleischmann.hu folytatása képek, levelek, 8mm, VHS, ..., syntaxhighlight, 
-- Linux ansible
-- Vatera + eBay
-- Apple MacBook töltőkábel garancia
-- doki: háziorvos, 
-- munkanélküli segély
-- Monterey update
-- NAS 7 update ✅
-- node.js oktatás
-- Swift oktatás
-- SwiftUI oktatás
-- FinalCUT oktatás
-- zenék rendbetétele
-- NAS-on privát dolgok rendbetétel
-- közös doksi bővítése, kazán, 
-- pmail, pegasus mail
-- Fidonet levelezés
-- könyvek: kín, ég urai, 1q84, sapiens, 
-- angol: Access to English
-- pico8 oktatások
-- parallel parancs
-- zsh 
-- Github actions
-- ✅
