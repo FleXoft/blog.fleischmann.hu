@@ -1,0 +1,284 @@
+---
+layout:   post
+title:    Upgrade from Apple macOS Catalina to Monterey upgrade
+author:   flex
+category: 2022
+tags:     [compúter, Apple, Catalina, Monterey, English]
+comments: false
+
+headerSIZE:       '420px'
+headerBGimage:   'images/Monterey/Apple_macOS_Monterey.png'
+headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="https://support.apple.com/macos/upgrade">Upgrade to macOS Monterey</a></div></div>'
+headerBGposition: 'background-position: center;'
+headerRIGHTStyleOverride:     'padding: 0px;'
+headerMainRIGHTStyleOverride: 'width: 100%;'
+headerRIGHT:	   ''
+disableheaderLEFT: true
+
+contentLEFTStyleOverride:        'background: rgba( 40, 27, 123, 0.8 ); color: white;'
+contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
+---
+
+Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
+
+## Where we started from
+
+<pre class="terminal">
+07:13:18 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
+$ <strong>df -h</strong>
+Filesystem      Size   Used  Avail Capacity     iused      ifree %iused  Mounted on
+/dev/disk1s1   466Gi   11Gi   36Gi    23%      488454 4881964426    0%   /
+devfs          379Ki  379Ki    0Bi   100%        1311          0  100%   /dev
+/dev/disk1s2   466Gi  414Gi   36Gi    93%     4155629 4878297251    0%   /System/Volumes/Data
+/dev/disk1s5   466Gi  4.0Gi   36Gi    11%           4 4882452876    0%   /private/var/vm
+map auto_home    0Bi    0Bi    0Bi   100%           0          0  100%   /System/Volumes/Data/home
+drivefs        466Gi  431Gi   34Gi    93% 18446744069414584742 4294967295 4381649422663796736%   /Volumes/GoogleDrive
+
+07:15:08 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
+</pre>
+
+<img src="images/Apple_MBP16_macOS_Catalina.png">
+
+<hr>
+
+And here's what happened in pictures:
+
+<img src="images/Monterey/Monterey_upgrade_01.png">
+<img src="images/Monterey/Monterey_upgrade_02.png">
+<img src="images/Monterey/Monterey_upgrade_03.png">
+<img src="images/Monterey/Monterey_upgrade_04.png">
+<img src="images/Monterey/Monterey_upgrade_05.png">
+<img src="images/Monterey/Monterey_upgrade_06.png">
+<img src="images/Monterey/Monterey_upgrade_07a.png">
+<img src="images/Monterey/Monterey_upgrade_07b.png">
+<img src="images/Monterey/Monterey_upgrade_08.png">
+<img src="images/Monterey/Monterey_upgrade_09b.png">
+<img src="images/Monterey/Monterey_upgrade_09b.png">
+
+## Checklist after the upgrade process:
+
+- VPN CHECK: ✅
+- VMware Fusion CHECK: ✅
+- brew CHECK: ✅
+- Time Machine backup CHECK: ✅
+
+<img src="images/Monterey/Time_Machine1.png">
+<img src="images/Monterey/Time_Machine2.png">
+
+- Apple Xcode upgrade (It took more than 3 hours and my Bluetooth test application didn't compile!!! 🤔) CHECK: ✅
+
+<img src="images/Xcode_v13.4/Xcode_01.png">
+<img src="images/Xcode_v13.4/Xcode_02.png">
+<img src="images/Xcode_v13.4/Xcode_03.png">
+<img src="images/Xcode_v13.4/Xcode_04.png">
+
+- so far incompatible Apps upgrade + CHECK: ✅
+- printer CHECK: ✅
+- Steam CHECK: ✅ (No more Steel Storm: Burning Retribution! I will never know why it ran on Catalina and why it still sometimes successfully starts on Monetery, but not always... 😢)
+- jekyll CHECK: ✅ (ruby v3 and jekyll reinstall needed! Some ruby cleaning may need in the close future...)
+
+<pre class="terminal">
+$ <strong>brew reinstall ruby</strong>
+
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/manifests/3.1.2
+Already downloaded: /Users/flex/Library/Caches/Homebrew/downloads/1181ee3622f5b111116751625fd840df1123fe154edfb9a6e4a57b63255e9ceb--ruby-3.1.2.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:31567181a85e0f3003358466c689142464b14cf817f8c37a6c5367e0c85bc1fc
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:31567181a85e0f3003358466c689142464b14cf817f8c37a6c5367e0c85bc1fc?se=2
+######################################################################## 100.0%
+==> Reinstalling ruby
+==> Pouring ruby--3.1.2.monterey.bottle.tar.gz
+==> Caveats
+By default, binaries installed by gem will be placed into:
+  /usr/local/lib/ruby/gems/3.1.0/bin
+
+You may want to add this to your PATH.
+
+ruby is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ruby first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.profile
+
+For compilers to find ruby you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"
+
+For pkg-config to find ruby you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/ruby/3.1.2: 15,996 files, 41MB
+==> Running `brew cleanup ruby`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+14:24:56 Tue Jun 21 [flex@flexs-MacBook-Pro-16:[~/gith/blog.fleischmann.hu] [0]
+$ <strong>export PATH="/usr/local/opt/ruby/bin:$PATH"</strong>
+
+14:25:22 Tue Jun 21 [flex@flexs-MacBook-Pro-16:[~/gith/blog.fleischmann.hu] [0]
+$ <strong>ruby -v</strong>
+
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
+
+14:25:26 Tue Jun 21 [flex@flexs-MacBook-Pro-16:[~/gith/blog.fleischmann.hu] [0]
+$ <strong>jekyll -v</strong>
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:311:in `to_specs': Could not find 'eventmachine' (>= 0.12.9) among 88 total gem(s) (Gem::MissingSpecError)
+Checked in 'GEM_PATH=/Users/flex/.gem/ruby/2.6.0:/Library/Ruby/Gems/2.6.0:/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0', execute `gem env` for more information
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1449:in `block in activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `each'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1420:in `activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1452:in `block in activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `each'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1420:in `activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:304:in `block in activate_bin_path'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:303:in `synchronize'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:303:in `activate_bin_path'
+	from /usr/local/bin/jekyll:23:in '<main'
+
+14:25:38 Tue Jun 21 [flex@flexs-MacBook-Pro-16:[~/gith/blog.fleischmann.hu] [1]
+$ <strong>gem install jekyll</strong>
+
+Fetching unicode-display_width-1.8.0.gem
+Fetching terminal-table-2.0.0.gem
+Fetching safe_yaml-1.0.5.gem
+Fetching rouge-3.29.0.gem
+Fetching pathutil-0.16.2.gem
+Fetching liquid-4.0.3.gem
+Fetching forwardable-extended-2.6.0.gem
+Fetching mercenary-0.4.0.gem
+Fetching kramdown-2.4.0.gem
+Fetching kramdown-parser-gfm-1.1.0.gem
+Fetching ffi-1.15.5.gem
+Fetching rb-inotify-0.10.1.gem
+Fetching rb-fsevent-0.11.1.gem
+Fetching listen-3.7.1.gem
+Fetching jekyll-watch-2.2.1.gem
+Fetching sassc-2.4.0.gem
+Fetching jekyll-sass-converter-2.2.0.gem
+Fetching concurrent-ruby-1.1.10.gem
+Fetching i18n-1.10.0.gem
+Fetching http_parser.rb-0.8.0.gem
+Fetching eventmachine-1.2.7.gem
+Fetching em-websocket-0.5.3.gem
+Fetching colorator-1.1.0.gem
+Fetching public_suffix-4.0.7.gem
+Fetching jekyll-4.2.2.gem
+Fetching addressable-2.8.0.gem
+Successfully installed unicode-display_width-1.8.0
+Successfully installed terminal-table-2.0.0
+Successfully installed safe_yaml-1.0.5
+Successfully installed rouge-3.29.0
+Successfully installed forwardable-extended-2.6.0
+Successfully installed pathutil-0.16.2
+Successfully installed mercenary-0.4.0
+Successfully installed liquid-4.0.3
+Successfully installed kramdown-2.4.0
+Successfully installed kramdown-parser-gfm-1.1.0
+Building native extensions. This could take a while...
+Successfully installed ffi-1.15.5
+Successfully installed rb-inotify-0.10.1
+Successfully installed rb-fsevent-0.11.1
+Successfully installed listen-3.7.1
+Successfully installed jekyll-watch-2.2.1
+Building native extensions. This could take a while...
+Successfully installed sassc-2.4.0
+Successfully installed jekyll-sass-converter-2.2.0
+Successfully installed concurrent-ruby-1.1.10
+Successfully installed i18n-1.10.0
+Building native extensions. This could take a while...
+Successfully installed http_parser.rb-0.8.0
+Building native extensions. This could take a while...
+Successfully installed eventmachine-1.2.7
+Successfully installed em-websocket-0.5.3
+Successfully installed colorator-1.1.0
+Successfully installed public_suffix-4.0.7
+Successfully installed addressable-2.8.0
+Successfully installed jekyll-4.2.2
+Parsing documentation for unicode-display_width-1.8.0
+Installing ri documentation for unicode-display_width-1.8.0
+Parsing documentation for terminal-table-2.0.0
+Installing ri documentation for terminal-table-2.0.0
+Parsing documentation for safe_yaml-1.0.5
+Installing ri documentation for safe_yaml-1.0.5
+Parsing documentation for rouge-3.29.0
+Installing ri documentation for rouge-3.29.0
+Parsing documentation for forwardable-extended-2.6.0
+Installing ri documentation for forwardable-extended-2.6.0
+Parsing documentation for pathutil-0.16.2
+Installing ri documentation for pathutil-0.16.2
+Parsing documentation for mercenary-0.4.0
+Installing ri documentation for mercenary-0.4.0
+Parsing documentation for liquid-4.0.3
+Installing ri documentation for liquid-4.0.3
+Parsing documentation for kramdown-2.4.0
+Installing ri documentation for kramdown-2.4.0
+Parsing documentation for kramdown-parser-gfm-1.1.0
+Installing ri documentation for kramdown-parser-gfm-1.1.0
+Parsing documentation for ffi-1.15.5
+Installing ri documentation for ffi-1.15.5
+Parsing documentation for rb-inotify-0.10.1
+Installing ri documentation for rb-inotify-0.10.1
+Parsing documentation for rb-fsevent-0.11.1
+Installing ri documentation for rb-fsevent-0.11.1
+Parsing documentation for listen-3.7.1
+Installing ri documentation for listen-3.7.1
+Parsing documentation for jekyll-watch-2.2.1
+Installing ri documentation for jekyll-watch-2.2.1
+Parsing documentation for sassc-2.4.0
+Installing ri documentation for sassc-2.4.0
+Parsing documentation for jekyll-sass-converter-2.2.0
+Installing ri documentation for jekyll-sass-converter-2.2.0
+Parsing documentation for concurrent-ruby-1.1.10
+Installing ri documentation for concurrent-ruby-1.1.10
+Parsing documentation for i18n-1.10.0
+Installing ri documentation for i18n-1.10.0
+Parsing documentation for http_parser.rb-0.8.0
+unknown encoding name "chunked\r\n\r\n25" for ext/ruby_http_parser/vendor/http-parser-java/tools/parse_tests.rb, skipping
+Installing ri documentation for http_parser.rb-0.8.0
+Parsing documentation for eventmachine-1.2.7
+Installing ri documentation for eventmachine-1.2.7
+Parsing documentation for em-websocket-0.5.3
+Installing ri documentation for em-websocket-0.5.3
+Parsing documentation for colorator-1.1.0
+Installing ri documentation for colorator-1.1.0
+Parsing documentation for public_suffix-4.0.7
+Installing ri documentation for public_suffix-4.0.7
+Parsing documentation for addressable-2.8.0
+Installing ri documentation for addressable-2.8.0
+Parsing documentation for jekyll-4.2.2
+Installing ri documentation for jekyll-4.2.2
+Done installing documentation for unicode-display_width, terminal-table, safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, kramdown-parser-gfm, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, sassc, jekyll-sass-converter, concurrent-ruby, i18n, http_parser.rb, eventmachine, em-websocket, colorator, public_suffix, addressable, jekyll after 18 seconds
+26 gems installed
+
+14:48:29 Tue Jun 21 [flex@flexs-MacBook-Pro-16:[~/gith/blog.fleischmann.hu] [0]
+$ <strong>gem install eventmachine http_parser.rb ffi webrick</strong>
+
+Building native extensions. This could take a while...
+Successfully installed eventmachine-1.2.7
+Parsing documentation for eventmachine-1.2.7
+Done installing documentation for eventmachine after 0 seconds
+Building native extensions. This could take a while...
+Successfully installed http_parser.rb-0.8.0
+Parsing documentation for http_parser.rb-0.8.0
+unknown encoding name "chunked\r\n\r\n25" for ext/ruby_http_parser/vendor/http-parser-java/tools/parse_tests.rb, skipping
+Done installing documentation for http_parser.rb after 0 seconds
+Building native extensions. This could take a while...
+Successfully installed ffi-1.15.5
+Parsing documentation for ffi-1.15.5
+Done installing documentation for ffi after 1 seconds
+Successfully installed webrick-1.7.0
+Parsing documentation for webrick-1.7.0
+Done installing documentation for webrick after 0 seconds
+4 gems installed
+
+$ <strong>/usr/local/lib/ruby/gems/3.1.0/bin/jekyll -v</strong>
+
+jekyll 4.2.2
+
+</pre>
+
+After another little more than an hour (not including the Time Machine backup), all the expected functions are working fine again on the new OS. 🤞
