@@ -26,9 +26,9 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - Linux ansible
 - Vatera + eBay
 - Apple MacBook töltőkábel garancia
-- doki: háziorvos, 
-- Monterey update
-- NAS 7 update ✅
+- doki: háziorvos
+- Monterey update [2022.06.21.](Apple_Catalina2Monterey_upgrade)
+- NAS 7 update [2022.06.09.](Synology_DSM7_upgrade) ✅
 - node.js oktató videók
 - Swift oktató videók
 - SwiftUI oktató videók

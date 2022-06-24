@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Upgrade from Apple macOS Catalina to Monterey upgrade
+title:    Upgrade from Apple macOS Catalina to Monterey
 author:   flex
 category: 2022
 tags:     [compúter, Apple, Catalina, Monterey, English]
@@ -15,8 +15,8 @@ headerMainRIGHTStyleOverride: 'width: 100%;'
 headerRIGHT:	   ''
 disableheaderLEFT: true
 
-contentLEFTStyleOverride:        'background: rgba( 40, 27, 123, 0.8 ); color: white;'
-contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
+contentLEFTStyleOverride: 'background: rgba( 40, 27, 123, 0.8 ); color: white;'
+contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p><div style="display: flex; position: -webkit-sticky; position: sticky; top: 20px;position: sticky;">Page tartalom</div>'
 ---
 
 Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
@@ -58,8 +58,21 @@ And here's what happened in pictures:
 ## Checklist after the upgrade process:
 
 - VPN CHECK: ✅
-- VMware Fusion CHECK: ✅
-- brew CHECK: ✅
+- VMware Fusion (The sw update will have to be done at some point in the future.) now CHECK is: ✅
+- brew doctor, cleanup, ... (I deleted the packages that were no longer needed.) CHECK: ✅
+
+<pre class="terminal">
+20:46:28 Wed Jun 22 [flex@MBP16:[/usr/local/Cellar] [0]
+$ brew doctor
+
+Your system is ready to brew.
+
+20:52:33 Wed Jun 22 [flex@MBP16:[/usr/local/Cellar] [0]
+$ brew cleanup
+
+20:52:57 Wed Jun 22 [flex@MBP16:[/usr/local/Cellar] [0]
+</pre>
+
 - Time Machine backup CHECK: ✅
 
 <img src="images/Monterey/Time_Machine1.png">
@@ -279,6 +292,18 @@ $ <strong>/usr/local/lib/ruby/gems/3.1.0/bin/jekyll -v</strong>
 
 jekyll 4.2.2
 
+$ sudo gem install -n /usr/local/bin jekyll
+Password:
+Successfully installed jekyll-4.2.2
+Parsing documentation for jekyll-4.2.2
+Done installing documentation for jekyll after 0 seconds
+1 gem installed
+
+21:05:06 Thu Jun 23 [flex@MBP16:[~] [0]
+$ jekyll -v
+jekyll 4.2.2
 </pre>
 
 After another little more than an hour (not including the Time Machine backup), all the expected functions are working fine again on the new OS. 🤞
+
+I don't feel it's any faster than the Catalina as some articles on the internet said so but it's still lagging a bit sometime... 😢

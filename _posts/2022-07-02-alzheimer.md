@@ -21,5 +21,7 @@ disableContentTitle:             ''
 disableContentPadding:           ''
 contentpaddingleftStyleOverride: ''
 contentLEFTStyleOverride:        'background: rgba( 180, 90, 145, 0.95 )'
+contentLEFT: '<p style="padding: 20px;"><a href="https://pubs.rsna.org/doi/10.1148/radiol.213208?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"><img class="shadow" src="images/brain1.jpg"></a></p><p style="padding: 20px;"><a href="https://pubs.rsna.org/doi/10.1148/radiol.213208?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"><img class="shadow" src="images/brain2.jpg"></a></p>'
 ---
 
+Elképesztő, hogy miközben már ilyen szép képeket tudnak csinálni az agyról, mégis egyelőre milyen keveset tudnak csak még a működéséről.
