@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    1 year sabbatical, fizetés nélküli tengődés 
+title:    1 year sabbatical, fizetés nélküli tengődés vagy mégsem?
 author:   flex
 category: 2022
 tags:     [flex, élet, fnxs]
@@ -17,7 +17,7 @@ headerRIGHTbottom:  '<div style=""><iframe style="border-radius:0px; margin-bott
 ---
 
 Mit kellene akkor most csinálni a következő 1 évben:
-- munkanélküli segély
+- munkanélküli segély?
 - régi levelek rendbetétel ± gMail, Google Workspace rendbetétele
 - halászcsárda: Révcsárda
 - futás és biciklizés

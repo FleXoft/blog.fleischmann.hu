@@ -2,7 +2,7 @@
 layout:   post
 title:    Upgrade from Apple macOS Catalina to Monterey
 author:   flex
-category: 2022
+category: 2020...2022 (FNXS)
 tags:     [compúter, Apple, Catalina, Monterey, English]
 comments: false
 
@@ -59,6 +59,9 @@ And here's what happened in pictures:
 
 - VPN CHECK: ✅
 - VMware Fusion (The sw update will have to be done at some point in the future.) now CHECK is: ✅
+
+Apply this if needed: "Virtual Machines with side channel mitigations enabled may exhibit performance degradation (79832)" [link](https://kb.vmware.com/s/article/79832)
+
 - brew doctor, cleanup, ... (I deleted the packages that were no longer needed.) CHECK: ✅
 
 <pre class="terminal">
