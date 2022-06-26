@@ -27,12 +27,14 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - Vatera + eBay
 - Apple MacBook töltőkábel garancia
 - doki: háziorvos
-- Monterey update [2022.06.21.](Apple_Catalina2Monterey_upgrade)
+- Monterey update [2022.06.21.](Apple_Catalina2Monterey_upgrade) ✅
 - NAS 7 update [2022.06.09.](Synology_DSM7_upgrade) ✅
-- node.js oktató videók
-- Swift oktató videók
-- SwiftUI oktató videók
-- FinalCUT oktató videók
+- oktató videók
+	- Swift oktató videók
+	- SwiftUI oktató videók
+	- Final Cut Pro oktató videók
+	- pico8 oktató videók
+	- node.js oktató videók
 - zenék rendbetétele
 - NAS-on privát dolgok rendbetétel
 - közös doksi bővítése, kazán, ...
@@ -40,9 +42,9 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - Fidonet levelezés átfutása
 - könyvek: kín, ég urai, 1q84, sapiens, ... 
 - angol: Access to English, ...
-- pico8 oktató videók
 - parallel parancs
 - zsh 
 - Github actions
 - C
 - awk, perl, bash
+- GitHub fs, actions
