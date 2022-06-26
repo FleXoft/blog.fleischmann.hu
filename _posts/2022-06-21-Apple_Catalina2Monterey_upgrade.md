@@ -28,6 +28,7 @@ Knowing that I'm going to lose my current daily job, the next thing I planed to 
 <pre class="terminal">
 07:13:18 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
 $ <strong>df -h</strong>
+
 Filesystem      Size   Used  Avail Capacity     iused      ifree %iused  Mounted on
 /dev/disk1s1   466Gi   11Gi   36Gi    23%      488454 4881964426    0%   /
 devfs          379Ki  379Ki    0Bi   100%        1311          0  100%   /dev
