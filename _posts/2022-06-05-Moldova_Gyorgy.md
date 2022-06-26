@@ -12,7 +12,8 @@ headerBGposition: 'background-position: top;'
 headerLEFT:       '<h1>R.I.P.</h1>'
 headerRIGHTtext:  ''
 
-contentLEFT: '<p style="padding: 20px;"><a href="https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00447a/moldova00447a_o/moldova00447a_o.html"><img src="images/Moldova_Gyorgy-A-beszelo-diszno.jpg"></a></p>'
+contentLEFT: '<p style="padding: 20px;"><a href="https://konyvtar.dia.hu/html/muvek/MOLDOVA/moldova00447a/moldova00447a_o/moldova00447a_o.html"><img class="shadow" src="images/Moldova_Gyorgy-A-beszelo-diszno.jpg"></a></p>'
+contentpaddingLEFTStyleOverride: 'padding: 0px;'
 
 beforeContent:          ''
 

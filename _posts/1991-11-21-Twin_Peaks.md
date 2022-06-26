@@ -18,6 +18,7 @@ headerRIGHTbottom:  '<div style="background-color: white; padding: 0px; padding-
 disableContentTitle:   ''
 disableContentPadding: ''
 contentpaddingleftStyleOverride: ''
+contentpaddingLEFTStyleOverride: 'padding: 0px;'
 
 contentLEFT:   '<p style="padding: 15px; padding-top: 0px;"><img class="shadow" src="images/Twin_Peaks.jpg"></p>'
 ---

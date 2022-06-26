@@ -263,6 +263,7 @@
     padding-top:   40px;
     padding-bottom: 0px;
   }
+  
   .contentpaddingright {
     padding:        38px;
     padding-top:    15px;
@@ -610,15 +611,18 @@
 
 {% if page.disablecontentLEFT != true %}  
     <div class="contentleftside" style="; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
-      <div class="contentpaddingleft" style="{{ page.contentLEFTDateStyleOverride }}">
+      <div class="contentpaddingleft" style="{{ page.contentLEFTDateStyleOverride }};">
       
 {% assign YEAR = page.date | date: "%Y" %}
 {% if YEAR != '0000' %}<div align="" class="post-date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
 
+      </div>    
+      <div class="contentpaddingleft" style="{{ page.contentpaddingLEFTStyleOverride }}">
+{{ page.contentLEFT }}
       </div>
       
-      <div class="contentpaddingleft" style="padding: 0px; {{ page.contentpaddingLEFTStyleOverride }}">
-{{ page.contentLEFT }}
+      <div class="contentpaddingleft" style="position: -webkit-sticky; position: sticky; top: 0px; {{ page.contentpaddingLEFTstickypartStyleOverride }}">
+{{ page.contentLEFTstickypart }}
       </div>
         
     </div>

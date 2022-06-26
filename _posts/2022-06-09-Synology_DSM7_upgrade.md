@@ -13,6 +13,7 @@ headerBGposition: 'background-position: center;'
 headerRIGHTStyleOverride: ''
 
 contentLEFT: '<p style="padding: 20px;"><img src="images/DSM/DS916+_front.png"></p><p style="padding: 20px;"><img src="images/DSM/DS916+.png"></p><p style="padding: 20px;"><img src="images/DSM/DS_916+_mother.png"></p><p style="padding: 20px;"><strong>From:</strong> Version: 6.2.4-25556 Update 6<br><strong>to:</strong> Version: 7.0.1-42218 Update 4 and<br> <strong>to2:</strong>Version: 7.1-42661 Update 2'
+contentpaddingLEFTStyleOverride: 'padding: 0px;'
 ---
 
 This morning, taking a deep breath, I pressed the button for this task a little earlier than I planned. What could go wrong with this??? 😀

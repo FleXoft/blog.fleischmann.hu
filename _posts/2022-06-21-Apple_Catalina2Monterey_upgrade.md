@@ -16,7 +16,9 @@ headerRIGHT:	   ''
 disableheaderLEFT: true
 
 contentLEFTStyleOverride: 'background: rgba( 40, 27, 123, 0.8 ); color: white;'
-contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p><div style="display: flex; position: -webkit-sticky; position: sticky; top: 20px;position: sticky;">Page tartalom</div>'
+contentpaddingLEFTStyleOverride: 'padding: 0px;'
+contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
+contentLEFTstickypart: 'Alma'
 ---
 
 Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
