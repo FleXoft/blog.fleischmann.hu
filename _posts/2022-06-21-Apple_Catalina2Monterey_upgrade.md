@@ -18,7 +18,7 @@ disableheaderLEFT: true
 contentLEFTStyleOverride: 'background: rgba( 40, 27, 123, 0.8 ); color: white;'
 contentpaddingLEFTStyleOverride: 'padding: 0px;'
 contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver-2019_nobg.png"></p>'
-contentLEFTstickypart: 'Alma'
+contentLEFTstickypart: 'Tartalom:<hr style="margin-top: 0px;"><div align="justify" style="padding-left: 20px;"><a href="#topofthepage">☝️</a><br><a href="#where-we-started-from">👉<nbsp>Where we started from<br><a href="#checklist-after-the-upgrade-process">👉<nbsp>Checklist after the upgrade process</a><br><a href="#bottomofthepage">👇</a></div>'
 ---
 
 Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
@@ -61,6 +61,10 @@ And here's what happened in pictures:
 ## Checklist after the upgrade process:
 
 - VPN CHECK: ✅
+- [Alfred 4 for Mac](https://www.alfredapp.com/) CHECK: ✅
+
+Because Apple [removed](https://www.macrumors.com/2022/01/28/apple-removing-python-2-in-macos-12-3/) python2 this [fix](https://github.com/willemml/alfred-convert/releases/tag/v3.7.3) needed for [conv](https://github.com/deanishe/alfred-convert/issues/91), and a lot of other python 2 based wokflow does not work yet...
+
 - VMware Fusion (The sw update will have to be done at some point in the future.) now CHECK is: ✅
 
 Apply this if needed: "Virtual Machines with side channel mitigations enabled may exhibit performance degradation (79832)" [link](https://kb.vmware.com/s/article/79832)
