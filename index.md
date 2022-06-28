@@ -73,18 +73,18 @@ Nem biztos, hogy teljesen jó ötlet ez a [#hashtag](/tags)-elés, de egyelőre 
 
 </div>
 
-És akkor itt jön az igazi tartalomjegyzék:
+És akkor itt jön az igazi tartalomjegyzék. Úgy döntöttem végül, hogy a legfrissebbek lesznek a tetején, így kell tehát olvasni visszafele:
 
 <p></p><div class="tableofcontents">
 
 {% assign tmpcategories = site.categories %}
-{% for category in tmpcategories %}
+{% for category in tmpcategories reversed %}
 	<div style="width: 100%; border: 0px solid; display: inline-block;">
 	{% capture category_name %}{{ category | first }}{% endcapture %}
 	<h2 style="margin: 0px">{{ category_name }}</h2>
 	<hr width="100%" style="margin: 0px">
 	<ul style="list-style-type: none; margin-top: 1rem; margin-bottom: 1rem;">
-	{% assign site_list = site.categories[category_name] | sort:"date" %}
+	{% assign site_list = site.categories[category_name]   %}
 	{% for post in site_list %}
 		<li><a href="{{ site.baseurl }}{{ post.url }}">> {{post.title}}</a></li>
 	{% endfor %}
