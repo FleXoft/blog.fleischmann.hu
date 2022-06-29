@@ -302,7 +302,8 @@ $ <strong>/usr/local/lib/ruby/gems/3.1.0/bin/jekyll -v</strong>
 
 jekyll 4.2.2
 
-$ sudo gem install -n /usr/local/bin jekyll
+$ <strong>sudo gem install -n /usr/local/bin jekyll</strong>
+
 Password:
 Successfully installed jekyll-4.2.2
 Parsing documentation for jekyll-4.2.2
@@ -310,7 +311,8 @@ Done installing documentation for jekyll after 0 seconds
 1 gem installed
 
 21:05:06 Thu Jun 23 [flex@MBP16:[~] [0]
-$ jekyll -v
+$ <strong>jekyll -v</strong>
+
 jekyll 4.2.2
 </pre>
 
