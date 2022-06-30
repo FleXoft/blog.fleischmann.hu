@@ -13,7 +13,7 @@ headerBGposition: 'background-position: center;'
 xbeforeContent:	  '<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
 <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ec6_rZ6llI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 
-headerRIGHTbottom:  '<div style=""><iframe style="border-radius:0px; margin-bottom: -9px" src="https://open.spotify.com/embed/track/6fnachl7fIn5dqIjakfJ57?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>'
+headerRIGHTbottom:  '<div style=""><iframe style="border-radius:0px; display: block;" src="https://open.spotify.com/embed/track/6fnachl7fIn5dqIjakfJ57?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>'
 ---
 
 Mit kellene akkor most csinálni a következő 1 évben:

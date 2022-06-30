@@ -27,4 +27,3 @@ contentpaddingLEFTStyleOverride: 'padding: 0px;'
 ---
 
 Elképesztő, hogy miközben már ilyen szép képeket tudnak csinálni az agyról, mégis egyelőre még milyen keveset tudunk a működéséről.
-
