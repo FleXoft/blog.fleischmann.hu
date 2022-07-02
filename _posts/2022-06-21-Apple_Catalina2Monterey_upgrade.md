@@ -95,10 +95,15 @@ $ brew cleanup
 <img src="images/Xcode_v13.4/Xcode_03.png">
 <img src="images/Xcode_v13.4/Xcode_04.png">
 
-- so far incompatible Apps upgrade + CHECK: ✅
+**UPDATE:** The compillation problem solved: [NSBluetoothAlwaysUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nsbluetoothperipheralusagedescription) key was missing in Info.plist file.
+
+- so far all incompatible Apps upgrade + CHECK: ✅
 - printer CHECK: ✅
-- Steam CHECK: ✅ (No more Steel Storm: Burning Retribution! I will never know why it ran on Catalina and why it still sometimes successfully starts on Monetery, but not always... 😢)
-- jekyll CHECK: ✅ (ruby v3 and jekyll reinstall needed! Some ruby cleaning may need in the close future...)
+
+**UPDATE:** We can now print on an unsupported(???) Xerox 3140 laserprinter on macOS Monterey: [link](https://github.com/FleXoft/Xerox-Phaser-3140-3155-macOS-Catalina-Big-Sur-Monterey-driver)
+
+- Steam CHECK: ✅ (No more Steel Storm: Burning Retribution! I will never know why it ran on Catalina and why it still sometimes successfully starts on macOS Monetery, but not always... 😢)
+- jekyll CHECK: ✅ (ruby v3 and jekyll reinstall needed! Some ruby cleaning may also need to be done in the near future...)
 
 <pre class="terminal">
 $ <strong>brew reinstall ruby</strong>
@@ -319,3 +324,5 @@ jekyll 4.2.2
 After another little more than an hour (not including the Time Machine backup), all the expected functions are working fine again on the new OS. 🤞
 
 I don't feel it's any faster than the Catalina as some articles on the internet said so but it's still lagging a bit sometime... 😢
+
+**I find it very ridiculous and very sad at the same time that something can lag on such an expensive machine!!!**
