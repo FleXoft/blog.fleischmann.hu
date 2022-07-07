@@ -326,3 +326,5 @@ After another little more than an hour (not including the Time Machine backup), 
 I don't feel it's any faster than the Catalina as some articles on the internet said so but it's still lagging a bit sometime... 😢
 
 **I find it very ridiculous and very sad at the same time that something can lag on such an expensive machine!!!**
+
+It's also so sad to see how the manufacturers don't support their old devices any more and push us to buy new ones. Two examples where fortunately, there is still a way to use them on a modern operating system in our example on Apple macOS Monetery: [Wacom Graphire 4](https://github.com/thenickdude/wacom-driver-fix), [Xerox Phaser 3140 macOS](https://gist.github.com/santiago26/60425d2759b1360555111caa47b6769f). One of them is a bit trickier, but the other one just didn't start the device driver installer and caused **???the incompatibility???** Yes, it's not a real incomatibility, but laziness of the manufacturers!!! Shame!
