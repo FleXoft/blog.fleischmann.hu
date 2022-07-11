@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    1 year sabbatical, fizetés nélküli tengődés vagy mégsem?
+title:    1 year sabbatical like, fizetés nélküli tengődés vagy mégsem?
 author:   flex
 category: 2022
 tags:     [flex, élet, fnxs]
@@ -35,6 +35,7 @@ Mit kellene akkor most csinálni a következő 1 évben:
 	- Final Cut Pro oktató videók
 	- pico8 oktató videók
 	- node.js oktató videók
+	- DJ szoftver tutorial
 - zenék rendbetétele
 - NAS-on privát dolgok rendbetétel
 - közös doksi bővítése, kazán, ...
@@ -48,3 +49,4 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - C
 - awk, perl, bash
 - GitHub fs, actions
+ 
