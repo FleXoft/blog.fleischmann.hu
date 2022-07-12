@@ -3,7 +3,7 @@ layout:   post
 title:    Furcsa egy világ van na...
 author:   flex
 category: 2020...2022 (FNXS)
-tags:     [flex, élet, fnxs]
+tags:     [flex, élet, FNXS]
 comments: false
 
 headerSIZE:       '680px'
