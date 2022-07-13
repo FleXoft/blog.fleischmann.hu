@@ -81,9 +81,9 @@ Nem biztos, hogy teljesen jó ötlet ez a [#hashtag](/tags)-elés, de egyelőre 
 {% for category in tmpcategories reversed %}
 	<div style="width: 100%; border: 0px solid; display: inline-block;">
 	{% capture category_name %}{{ category | first }}{% endcapture %}
-	<h2 style="margin: 0px">{{ category_name }}</h2>
+	<h2 style="margin: 0px;">{{ category_name }}</h2>
 	<hr width="100%" style="margin: 0px">
-	<ul style="list-style-type: none; margin-top: 1rem; margin-bottom: 1rem;">
+	<ul style="text-align: left; list-style-type: none; margin-top: 1rem; margin-bottom: 1rem;">
 	{% assign site_list = site.categories[category_name]   %}
 	{% for post in site_list %}
 		<li><a href="{{ site.baseurl }}{{ post.url }}">> {{post.title}}</a></li>
