@@ -7,13 +7,14 @@ tags:     [about, Anna]
 comments: false
 
 headerSIZE:        777px
-headerBGimage:     'images/deathos.jpg'
-headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="http://hateplow.tumblr.com/post/160877632854/deathos">"DeathOS"</a></div></div>'
-headerBGposition:  'background-position: top;'
+headerBGimage:     'https://cdn.arstechnica.net/wp-content/uploads/2022/07/GettyImages-538030120-800x640.jpg'
+headerRIGHTbottom: '<div style="text-align: right"><div class="" style="display: inline-block; font-size: 50%; margin-bottom: 0px; background: black; color: white; padding: 7px;">Source: <a class="menu" href="https://arstechnica.com/science/2022/07/why-dont-most-foods-cause-allergies/">"Why don’t most foods cause allergies?"</a></div></div>'
+headerBGposition:  'background-position: center;'
 headerLEFT:        '<h1>About</h1>'
 headerRIGHT:       ''
 
 contentLEFTDateStyleOverride: ''
+contentpaddingLEFTStyleOverride: 'padding: 0px;'
 contentLEFTStyleOverride: ''
 contentLEFT: '<p style="padding: 20px;"><img src="images/GF.png"></p>'
 
