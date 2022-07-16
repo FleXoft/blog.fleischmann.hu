@@ -18,3 +18,5 @@ contentLEFTStyleOverride:        'background: rgba( 200, 100, 45, 0.85 );'
 Ma közös megegyezéssel és június 30-ai dátummal elváltunk egymástól. A kiváltó ok, hogy nem akartam már a GF-nak oktatni. Ezt május 12-én délelőtt jelentetem be. A notebook-ot megvehettem, a kocsit vissza kell majd természetesen adni, de még elmehetünk a családi Horvátországi nyaralásra vele. Hát ez van mára. Le kell nyugodni most már és menni kell majd tovább!
 
 Most azt gondolom, hogy a mi szempontunkból / vagy az én szemszögemből és ha lehet ilyet mondani, akkor talán a legjobbkor történt ez. Hajni lehet új munkahelyre megy újra dolgozni, én pedig tudok egyéb más dolgaimmal is foglalkozni.
+
+Ha egy munkahely vagy kolléga nem becsül meg, akkor onnan el kell jönni! és itt ugye nem csak az anyagi megbecsülésről van szó, pontosabban arról nincs is itt szó!
