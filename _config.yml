@@ -29,3 +29,11 @@ exclude:
 safe:   true
 lsi:    false
 future: false
+
+# feed
+name:                 'blog.fleischmann.hu'
+description:          'blog.fleischmann.hu POC feed description'
+
+feed_items:            10
+feed_update_period:    daily
+feed_update_frequency: 1
