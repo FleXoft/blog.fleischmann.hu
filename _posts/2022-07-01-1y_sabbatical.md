@@ -49,4 +49,6 @@ Mit kellene akkor most csinálni a következő 1 évben:
 - C
 - awk, perl, bash
 - GitHub fs, actions
+- Chrome OS Flex -> HP 
+- Alfred SONOS
  
