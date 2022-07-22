@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Videójátékok
 author:   flex
 category: About

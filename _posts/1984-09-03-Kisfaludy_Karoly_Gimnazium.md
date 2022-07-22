@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Kisfaludy Károly Gimnázium, Mohács
 author:   flex
 category: 1984...1988 (Gimnázium)

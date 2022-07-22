@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Bulls Cross Bike 2
 author:   flex
 category: 2020...2022 (FNXS)

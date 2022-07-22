@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    'Jégvarázs 2: Túl az ábránd mezsgyéjén'
 author:   flex
 category: 2020...2022 (FNXS)

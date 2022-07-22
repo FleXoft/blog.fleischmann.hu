@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Upgrade from Apple macOS Catalina to Monterey
 author:   flex
 category: 2020...2022 (FNXS)

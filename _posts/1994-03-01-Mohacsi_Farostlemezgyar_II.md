@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Mohácsi Farostlemezgyár II.
 author:   flex
 category: 1994...1997 (MOFA II.)

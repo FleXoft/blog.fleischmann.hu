@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Szilveszter, Csehszlovákia, Trencsén
 author:   flex
 category: 1991...1993 (MOFA I.)

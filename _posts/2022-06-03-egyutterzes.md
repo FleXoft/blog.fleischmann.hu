@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Együttérzés / compassion
 author:   flex
 category: 2020...2022 (FNXS)

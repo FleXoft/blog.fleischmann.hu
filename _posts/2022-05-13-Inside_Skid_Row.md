@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    "Inside Skid Row America's homelessness capital"
 author:   flex
 category: 2020...2022 (FNXS)

@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Podcastok
 author:   flex
 category: About

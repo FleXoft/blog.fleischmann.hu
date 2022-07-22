@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Apple MacBook Pro 2019 16"
 author:   flex
 category: 2020...2022 (FNXS)

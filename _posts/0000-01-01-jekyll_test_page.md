@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_v2
 title:  Jekyll test page 
 category: Test / teszt
 comments: false

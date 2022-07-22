@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    1 year sabbatical like, fizetés nélküli tengődés vagy mégsem?
 author:   flex
 category: 2022

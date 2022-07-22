@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Születés, bölcsőde, óvoda
 author:   flex
 category: 1970...1976

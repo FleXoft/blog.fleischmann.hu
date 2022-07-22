@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Alzheimer
 author:   flex
 category: 2022

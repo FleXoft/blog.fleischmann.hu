@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Széchenyi Téri Általános Iskola, Mohács
 author:   flex
 category: 1976...1984

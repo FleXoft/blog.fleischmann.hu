@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Synology DSM 7 upgrade
 author:   flex
 category: 2020...2022 (FNXS)

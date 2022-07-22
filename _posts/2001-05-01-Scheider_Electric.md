@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Schneider Electric Hungária Villamossági Rt., Budapest
 author:   flex
 category: 2001...2003 (Schneider)

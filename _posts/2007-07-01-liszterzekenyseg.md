@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Lisztérzékenység vagy inkább gluténérzékenység / coeliakia
 author:   flex
 category: 2004...2014 (USER)

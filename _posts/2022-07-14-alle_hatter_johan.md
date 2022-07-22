@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Alle Hatter Johan
 author:   flex
 category: 2022

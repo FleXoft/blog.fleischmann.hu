@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post_v2
 title:    Everything Everywhere All At Once (Minden, mindenhol, mindenkor)
 author:   flex
 category: 2020...2022 (FNXS)
