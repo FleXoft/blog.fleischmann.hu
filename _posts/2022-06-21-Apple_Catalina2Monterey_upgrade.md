@@ -21,7 +21,7 @@ contentLEFT: '<p style="padding: 20px;"><img src="images/Apple_MBP16Touch-Silver
 contentLEFTstickypart: 'Tartalom:<hr style="margin-top: 0px;"><div align="justify" style="padding-left: 20px;"><a href="#topofthepage">☝️</a><br><a href="#where-we-started-from">👉<nbsp>Where we started from<br><a href="#checklist-after-the-upgrade-process">👉<nbsp>Checklist after the upgrade process</a><br><a href="#bottomofthepage">👇</a></div>'
 ---
 
-Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
+Knowing that I'm going to lose my current daily job, the next thing I planed to do on our home computer infrastructure. So the next thing after the [DSM 7 upgrade](Synology_DSM7_upgrade) on our Synology NAS was to upgrade the macOS operating system on my MacBook Pro from Catalina to the latest version of Monterey as soon as I could. This also happened a little bit earlier than I originally planned, but I couldn't wait any longer...
 
 ## Where we started from
 
@@ -327,4 +327,4 @@ I don't feel it's any faster than the Catalina as some articles on the internet 
 
 **I find it very ridiculous and very sad at the same time that something can lag on such an expensive machine!!!**
 
-It's also so sad to see how the manufacturers don't support their old devices any more and push us to buy new ones. Two examples where fortunately, there is still a way to use them on a modern operating system in our example on Apple macOS Monetery: [Wacom Graphire 4](https://github.com/thenickdude/wacom-driver-fix), [Xerox Phaser 3140 macOS](https://gist.github.com/santiago26/60425d2759b1360555111caa47b6769f). One of them is a bit trickier, but the other one just didn't start the device driver installer and caused **???the incompatibility???** Yes, it's not a real incomatibility, but laziness of the manufacturers!!! Shame!
+It's also so sad to see how the manufacturers don't support their old devices any more and push us to buy new ones. Two examples where fortunately, there is still a way to use them on a modern operating system in our example on Apple macOS Monetery: [Wacom Graphire 4](https://github.com/thenickdude/wacom-driver-fix), [Xerox Phaser 3140 macOS](https://gist.github.com/santiago26/60425d2759b1360555111caa47b6769f). One of them is a bit trickier, but the other one just didn't start the device driver installer and caused **???the incompatibility???** Yes, it's not a real incompatibility, but laziness of the manufacturers!!! Shame!
